@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	CE269CC2141BF49C00704362 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CE89B37A14208DBA004D9E09 /* BouncySquare */;
+		activeTarget = CE269CCA141BF49D00704362 /* BouncySquare */;
+		codeSenseManager = CE89B39114208DC5004D9E09 /* Code sense */;
+		executables = (
+			CE89B37A14208DBA004D9E09 /* BouncySquare */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337677754;
+			PBXWorkspaceStateSaveDate = 337677754;
+		};
+		sourceControlManager = CE89B39014208DC5004D9E09 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE269CCA141BF49D00704362 /* BouncySquare */ = {
+		activeExec = 0;
+		executables = (
+			CE89B37A14208DBA004D9E09 /* BouncySquare */,
+		);
+	};
+	CE89B37A14208DBA004D9E09 /* BouncySquare */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BouncySquare;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CE89B39014208DC5004D9E09 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CE89B39114208DC5004D9E09 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	CE37AF51141AF48400469BD9 /* OpeglBook First Project */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "OpeglBook First Project";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CE37AF5B141AF48700469BD9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CE37AF5C141AF48700469BD9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CE3F5083141A7CF900CDEE02 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CE37AF51141AF48400469BD9 /* OpeglBook First Project */;
+		activeTarget = CE3F508B141A7CFA00CDEE02 /* OpeglBook First Project */;
+		codeSenseManager = CE37AF5C141AF48700469BD9 /* Code sense */;
+		executables = (
+			CE37AF51141AF48400469BD9 /* OpeglBook First Project */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339562154;
+			PBXWorkspaceStateSaveDate = 339562154;
+		};
+		sourceControlManager = CE37AF5B141AF48700469BD9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE3F508B141A7CFA00CDEE02 /* OpeglBook First Project */ = {
+		activeExec = 0;
+		executables = (
+			CE37AF51141AF48400469BD9 /* OpeglBook First Project */,
+		);
+	};
+}

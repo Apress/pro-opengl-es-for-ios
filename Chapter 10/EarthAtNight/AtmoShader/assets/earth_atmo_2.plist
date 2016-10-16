@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>samples</key>
+	<string>3</string>
+	<key>g</key>
+	<string>-0.95</string>
+	<key>innerRadius</key>
+	<string>10</string>
+	<key>outerRadius</key>
+	<string>13</string>
+	<key>rayleigh</key>
+	<string>0.0025</string>
+	<key>mie</key>
+	<string>0.0010</string>
+	<key>sunBrightness</key>
+	<string>150.0</string>
+	<key>miePhaseAsymmetry</key>
+	<string>-0.95</string>
+	<key>waveLengthRed</key>
+	<string>0.650</string>
+	<key>waveLengthGreen</key>
+	<string>0.570</string>
+	<key>waveLengthBlue</key>
+	<string>0.475</string>
+	<key>scaleDepth</key>
+	<string>0.25</string>
+	<key>mieScaleDepth</key>
+	<string>0.1</string>
+	<key>exposure</key>
+	<string>2.0f</string>
+</dict>
+</plist>

@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3F5091141A7CFA00CDEE02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F5090141A7CFA00CDEE02 /* UIKit.framework */; };
+		CE3F5093141A7CFA00CDEE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F5092141A7CFA00CDEE02 /* Foundation.framework */; };
+		CE3F5095141A7CFA00CDEE02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F5094141A7CFA00CDEE02 /* CoreGraphics.framework */; };
+		CE3F5097141A7CFA00CDEE02 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F5096141A7CFA00CDEE02 /* GLKit.framework */; };
+		CE3F5099141A7CFA00CDEE02 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3F5098141A7CFA00CDEE02 /* OpenGLES.framework */; };
+		CE3F509F141A7CFA00CDEE02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3F509D141A7CFA00CDEE02 /* InfoPlist.strings */; };
+		CE3F50A1141A7CFA00CDEE02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F50A0141A7CFA00CDEE02 /* main.m */; };
+		CE3F50A5141A7CFA00CDEE02 /* TwoCubesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F50A4141A7CFA00CDEE02 /* TwoCubesAppDelegate.m */; };
+		CE3F50AD141A7CFA00CDEE02 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CE3F50AC141A7CFA00CDEE02 /* Shader.fsh */; };
+		CE3F50AF141A7CFA00CDEE02 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE3F50AE141A7CFA00CDEE02 /* Shader.vsh */; };
+		CE3F50B2141A7CFA00CDEE02 /* TwoCubesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F50B1141A7CFA00CDEE02 /* TwoCubesViewController.m */; };
+		CEFD48F6144027AE00CEB597 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD48F2144027AE00CEB597 /* MainStoryboard_iPad.storyboard */; };
+		CEFD48F7144027AE00CEB597 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD48F4144027AE00CEB597 /* MainStoryboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3F508C141A7CFA00CDEE02 /* OpeglBook First Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpeglBook First Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3F5090141A7CFA00CDEE02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3F5092141A7CFA00CDEE02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3F5094141A7CFA00CDEE02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3F5096141A7CFA00CDEE02 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE3F5098141A7CFA00CDEE02 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE3F509C141A7CFA00CDEE02 /* OpeglBook First Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpeglBook First Project-Info.plist"; sourceTree = "<group>"; };
+		CE3F509E141A7CFA00CDEE02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3F50A0141A7CFA00CDEE02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3F50A2141A7CFA00CDEE02 /* OpeglBook First Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpeglBook First Project-Prefix.pch"; sourceTree = "<group>"; };
+		CE3F50A3141A7CFA00CDEE02 /* TwoCubesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoCubesAppDelegate.h; sourceTree = "<group>"; };
+		CE3F50A4141A7CFA00CDEE02 /* TwoCubesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoCubesAppDelegate.m; sourceTree = "<group>"; };
+		CE3F50AC141A7CFA00CDEE02 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CE3F50AE141A7CFA00CDEE02 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CE3F50B0141A7CFA00CDEE02 /* TwoCubesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoCubesViewController.h; sourceTree = "<group>"; };
+		CE3F50B1141A7CFA00CDEE02 /* TwoCubesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoCubesViewController.m; sourceTree = "<group>"; };
+		CEFD48F3144027AE00CEB597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CEFD48F5144027AE00CEB597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3F5089141A7CFA00CDEE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3F5091141A7CFA00CDEE02 /* UIKit.framework in Frameworks */,
+				CE3F5093141A7CFA00CDEE02 /* Foundation.framework in Frameworks */,
+				CE3F5095141A7CFA00CDEE02 /* CoreGraphics.framework in Frameworks */,
+				CE3F5097141A7CFA00CDEE02 /* GLKit.framework in Frameworks */,
+				CE3F5099141A7CFA00CDEE02 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3F5081141A7CF900CDEE02 = {
+			isa = PBXGroup;
+			children = (
+				CE3F509A141A7CFA00CDEE02 /* OpeglBook First Project */,
+				CE3F508F141A7CFA00CDEE02 /* Frameworks */,
+				CE3F508D141A7CFA00CDEE02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3F508D141A7CFA00CDEE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F508C141A7CFA00CDEE02 /* OpeglBook First Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3F508F141A7CFA00CDEE02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F5090141A7CFA00CDEE02 /* UIKit.framework */,
+				CE3F5092141A7CFA00CDEE02 /* Foundation.framework */,
+				CE3F5094141A7CFA00CDEE02 /* CoreGraphics.framework */,
+				CE3F5096141A7CFA00CDEE02 /* GLKit.framework */,
+				CE3F5098141A7CFA00CDEE02 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3F509A141A7CFA00CDEE02 /* OpeglBook First Project */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F50A3141A7CFA00CDEE02 /* TwoCubesAppDelegate.h */,
+				CE3F50A4141A7CFA00CDEE02 /* TwoCubesAppDelegate.m */,
+				CE3F50AC141A7CFA00CDEE02 /* Shader.fsh */,
+				CE3F50AE141A7CFA00CDEE02 /* Shader.vsh */,
+				CE3F50B0141A7CFA00CDEE02 /* TwoCubesViewController.h */,
+				CE3F50B1141A7CFA00CDEE02 /* TwoCubesViewController.m */,
+				CEFD48F2144027AE00CEB597 /* MainStoryboard_iPad.storyboard */,
+				CEFD48F4144027AE00CEB597 /* MainStoryboard_iPhone.storyboard */,
+				CE3F509B141A7CFA00CDEE02 /* Supporting Files */,
+			);
+			path = "OpeglBook First Project";
+			sourceTree = "<group>";
+		};
+		CE3F509B141A7CFA00CDEE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F509C141A7CFA00CDEE02 /* OpeglBook First Project-Info.plist */,
+				CE3F509D141A7CFA00CDEE02 /* InfoPlist.strings */,
+				CE3F50A0141A7CFA00CDEE02 /* main.m */,
+				CE3F50A2141A7CFA00CDEE02 /* OpeglBook First Project-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3F508B141A7CFA00CDEE02 /* OpeglBook First Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3F50B5141A7CFA00CDEE02 /* Build configuration list for PBXNativeTarget "OpeglBook First Project" */;
+			buildPhases = (
+				CE3F5088141A7CFA00CDEE02 /* Sources */,
+				CE3F5089141A7CFA00CDEE02 /* Frameworks */,
+				CE3F508A141A7CFA00CDEE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpeglBook First Project";
+			productName = "OpeglBook First Project";
+			productReference = CE3F508C141A7CFA00CDEE02 /* OpeglBook First Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3F5083141A7CF900CDEE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE3F5086141A7CF900CDEE02 /* Build configuration list for PBXProject "OpeglBook First Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3F5081141A7CF900CDEE02;
+			productRefGroup = CE3F508D141A7CFA00CDEE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3F508B141A7CFA00CDEE02 /* OpeglBook First Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3F508A141A7CFA00CDEE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3F509F141A7CFA00CDEE02 /* InfoPlist.strings in Resources */,
+				CE3F50AD141A7CFA00CDEE02 /* Shader.fsh in Resources */,
+				CE3F50AF141A7CFA00CDEE02 /* Shader.vsh in Resources */,
+				CEFD48F6144027AE00CEB597 /* MainStoryboard_iPad.storyboard in Resources */,
+				CEFD48F7144027AE00CEB597 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3F5088141A7CFA00CDEE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3F50A1141A7CFA00CDEE02 /* main.m in Sources */,
+				CE3F50A5141A7CFA00CDEE02 /* TwoCubesAppDelegate.m in Sources */,
+				CE3F50B2141A7CFA00CDEE02 /* TwoCubesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3F509D141A7CFA00CDEE02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3F509E141A7CFA00CDEE02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFD48F2144027AE00CEB597 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD48F3144027AE00CEB597 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFD48F4144027AE00CEB597 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD48F5144027AE00CEB597 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3F50B3141A7CFA00CDEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3F50B4141A7CFA00CDEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3F50B6141A7CFA00CDEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpeglBook First Project/OpeglBook First Project-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpeglBook First Project/OpeglBook First Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3F50B7141A7CFA00CDEE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpeglBook First Project/OpeglBook First Project-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpeglBook First Project/OpeglBook First Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3F5086141A7CF900CDEE02 /* Build configuration list for PBXProject "OpeglBook First Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3F50B3141A7CFA00CDEE02 /* Debug */,
+				CE3F50B4141A7CFA00CDEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3F50B5141A7CFA00CDEE02 /* Build configuration list for PBXNativeTarget "OpeglBook First Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3F50B6141A7CFA00CDEE02 /* Debug */,
+				CE3F50B7141A7CFA00CDEE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3F5083141A7CF900CDEE02 /* Project object */;
+}

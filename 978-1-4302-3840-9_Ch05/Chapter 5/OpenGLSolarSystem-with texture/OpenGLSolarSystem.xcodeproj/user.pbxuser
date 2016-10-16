@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	CE269CC2141BF49C00704362 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CEF317BB141C660B00ADE1D0 /* OpenGLSolarSystem */;
+		activeTarget = CE269CCA141BF49D00704362 /* OpenGLSolarSystem */;
+		codeSenseManager = CEF317CA141C662400ADE1D0 /* Code sense */;
+		executables = (
+			CEF317BB141C660B00ADE1D0 /* OpenGLSolarSystem */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					123,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337405452;
+			PBXWorkspaceStateSaveDate = 337405452;
+		};
+		sourceControlManager = CEF317C9141C662400ADE1D0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE269CCA141BF49D00704362 /* OpenGLSolarSystem */ = {
+		activeExec = 0;
+		executables = (
+			CEF317BB141C660B00ADE1D0 /* OpenGLSolarSystem */,
+		);
+	};
+	CEF317BB141C660B00ADE1D0 /* OpenGLSolarSystem */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OpenGLSolarSystem;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CEF317C9141C662400ADE1D0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CEF317CA141C662400ADE1D0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

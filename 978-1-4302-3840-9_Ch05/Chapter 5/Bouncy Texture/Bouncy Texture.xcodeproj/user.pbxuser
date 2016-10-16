@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	CE210986141EB78200FB3E04 /* Bouncy Texture */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Bouncy Texture";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CE21099A141EB78B00FB3E04 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CE21099B141EB78B00FB3E04 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CE269CC2141BF49C00704362 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CE210986141EB78200FB3E04 /* Bouncy Texture */;
+		activeTarget = CE269CCA141BF49D00704362 /* Bouncy Texture */;
+		codeSenseManager = CE21099B141EB78B00FB3E04 /* Code sense */;
+		executables = (
+			CE210986141EB78200FB3E04 /* Bouncy Texture */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337557378;
+			PBXWorkspaceStateSaveDate = 337557378;
+		};
+		sourceControlManager = CE21099A141EB78B00FB3E04 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE269CCA141BF49D00704362 /* Bouncy Texture */ = {
+		activeExec = 0;
+		executables = (
+			CE210986141EB78200FB3E04 /* Bouncy Texture */,
+		);
+	};
+}

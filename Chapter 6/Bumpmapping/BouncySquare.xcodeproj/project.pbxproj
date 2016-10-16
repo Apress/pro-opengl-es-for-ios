@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE12758B142056DF00664BE3 /* hedly.png in Resources */ = {isa = PBXBuildFile; fileRef = CE12758A142056DF00664BE3 /* hedly.png */; };
+		CE12758E142056EC00664BE3 /* ggate_bridge.256.png in Resources */ = {isa = PBXBuildFile; fileRef = CE12758D142056EC00664BE3 /* ggate_bridge.256.png */; };
+		CE1275901420821D00664BE3 /* rgb_splats.256.color.png in Resources */ = {isa = PBXBuildFile; fileRef = CE12758F1420821D00664BE3 /* rgb_splats.256.color.png */; };
+		CE1275941420853400664BE3 /* rgb_splats_masked.256.color.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1275931420853400664BE3 /* rgb_splats_masked.256.color.png */; };
+		CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CCF141BF49D00704362 /* UIKit.framework */; };
+		CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD1141BF49D00704362 /* Foundation.framework */; };
+		CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD3141BF49D00704362 /* CoreGraphics.framework */; };
+		CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD5141BF49D00704362 /* GLKit.framework */; };
+		CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD7141BF49D00704362 /* OpenGLES.framework */; };
+		CE269CDE141BF49D00704362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE269CDC141BF49D00704362 /* InfoPlist.strings */; };
+		CE269CE0141BF49D00704362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE269CDF141BF49D00704362 /* main.m */; };
+		CE269CE4141BF49D00704362 /* BouncySquareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE269CE3141BF49D00704362 /* BouncySquareAppDelegate.m */; };
+		CE269CE7141BF49D00704362 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE269CE5141BF49D00704362 /* MainStoryboard_iPhone.storyboard */; };
+		CE269CEA141BF49D00704362 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE269CE8141BF49D00704362 /* MainStoryboard_iPad.storyboard */; };
+		CE269CF1141BF49D00704362 /* BouncySquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE269CF0141BF49D00704362 /* BouncySquareViewController.m */; };
+		CEB161C114208F610031B034 /* usa_normal_really_hc.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB161BF14208F610031B034 /* usa_normal_really_hc.png */; };
+		CEB161C214208F610031B034 /* usa_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB161C014208F610031B034 /* usa_texture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE12758A142056DF00664BE3 /* hedly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly.png; path = assets/hedly.png; sourceTree = "<group>"; };
+		CE12758D142056EC00664BE3 /* ggate_bridge.256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ggate_bridge.256.png; path = assets/ggate_bridge.256.png; sourceTree = "<group>"; };
+		CE12758F1420821D00664BE3 /* rgb_splats.256.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rgb_splats.256.color.png; path = assets/rgb_splats.256.color.png; sourceTree = "<group>"; };
+		CE1275931420853400664BE3 /* rgb_splats_masked.256.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rgb_splats_masked.256.color.png; path = assets/rgb_splats_masked.256.color.png; sourceTree = "<group>"; };
+		CE269CCB141BF49D00704362 /* BouncySquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncySquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE269CCF141BF49D00704362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE269CD1141BF49D00704362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE269CD3141BF49D00704362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE269CD5141BF49D00704362 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE269CD7141BF49D00704362 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE269CDB141BF49D00704362 /* BouncySquare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncySquare-Info.plist"; sourceTree = "<group>"; };
+		CE269CDD141BF49D00704362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE269CDF141BF49D00704362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE269CE1141BF49D00704362 /* BouncySquare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BouncySquare-Prefix.pch"; sourceTree = "<group>"; };
+		CE269CE2141BF49D00704362 /* BouncySquareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncySquareAppDelegate.h; sourceTree = "<group>"; };
+		CE269CE3141BF49D00704362 /* BouncySquareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncySquareAppDelegate.m; sourceTree = "<group>"; };
+		CE269CE6141BF49D00704362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CE269CE9141BF49D00704362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CE269CEF141BF49D00704362 /* BouncySquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncySquareViewController.h; sourceTree = "<group>"; };
+		CE269CF0141BF49D00704362 /* BouncySquareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncySquareViewController.m; sourceTree = "<group>"; };
+		CEB161BF14208F610031B034 /* usa_normal_really_hc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usa_normal_really_hc.png; path = assets/usa_normal_really_hc.png; sourceTree = "<group>"; };
+		CEB161C014208F610031B034 /* usa_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usa_texture.png; path = assets/usa_texture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE269CC8141BF49D00704362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */,
+				CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */,
+				CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */,
+				CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */,
+				CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE269CC0141BF49C00704362 = {
+			isa = PBXGroup;
+			children = (
+				CE269CD9141BF49D00704362 /* BouncySquare */,
+				CE269CCE141BF49D00704362 /* Frameworks */,
+				CE269CCC141BF49D00704362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE269CCC141BF49D00704362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCB141BF49D00704362 /* BouncySquare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE269CCE141BF49D00704362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCF141BF49D00704362 /* UIKit.framework */,
+				CE269CD1141BF49D00704362 /* Foundation.framework */,
+				CE269CD3141BF49D00704362 /* CoreGraphics.framework */,
+				CE269CD5141BF49D00704362 /* GLKit.framework */,
+				CE269CD7141BF49D00704362 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE269CD9141BF49D00704362 /* BouncySquare */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CE2141BF49D00704362 /* BouncySquareAppDelegate.h */,
+				CE269CE3141BF49D00704362 /* BouncySquareAppDelegate.m */,
+				CE269CE5141BF49D00704362 /* MainStoryboard_iPhone.storyboard */,
+				CE269CE8141BF49D00704362 /* MainStoryboard_iPad.storyboard */,
+				CE269CEF141BF49D00704362 /* BouncySquareViewController.h */,
+				CE269CF0141BF49D00704362 /* BouncySquareViewController.m */,
+				CE269CDA141BF49D00704362 /* Supporting Files */,
+			);
+			path = BouncySquare;
+			sourceTree = "<group>";
+		};
+		CE269CDA141BF49D00704362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB161BF14208F610031B034 /* usa_normal_really_hc.png */,
+				CEB161C014208F610031B034 /* usa_texture.png */,
+				CE269CDB141BF49D00704362 /* BouncySquare-Info.plist */,
+				CE269CE1141BF49D00704362 /* BouncySquare-Prefix.pch */,
+				CE12758D142056EC00664BE3 /* ggate_bridge.256.png */,
+				CE12758A142056DF00664BE3 /* hedly.png */,
+				CE269CDC141BF49D00704362 /* InfoPlist.strings */,
+				CE269CDF141BF49D00704362 /* main.m */,
+				CE12758F1420821D00664BE3 /* rgb_splats.256.color.png */,
+				CE1275931420853400664BE3 /* rgb_splats_masked.256.color.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE269CCA141BF49D00704362 /* BouncySquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "BouncySquare" */;
+			buildPhases = (
+				CE269CC7141BF49D00704362 /* Sources */,
+				CE269CC8141BF49D00704362 /* Frameworks */,
+				CE269CC9141BF49D00704362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncySquare;
+			productName = BouncySquare;
+			productReference = CE269CCB141BF49D00704362 /* BouncySquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE269CC2141BF49C00704362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "BouncySquare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE269CC0141BF49C00704362;
+			productRefGroup = CE269CCC141BF49D00704362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE269CCA141BF49D00704362 /* BouncySquare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE269CC9141BF49D00704362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE269CDE141BF49D00704362 /* InfoPlist.strings in Resources */,
+				CE269CE7141BF49D00704362 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE269CEA141BF49D00704362 /* MainStoryboard_iPad.storyboard in Resources */,
+				CE12758B142056DF00664BE3 /* hedly.png in Resources */,
+				CE12758E142056EC00664BE3 /* ggate_bridge.256.png in Resources */,
+				CE1275901420821D00664BE3 /* rgb_splats.256.color.png in Resources */,
+				CE1275941420853400664BE3 /* rgb_splats_masked.256.color.png in Resources */,
+				CEB161C114208F610031B034 /* usa_normal_really_hc.png in Resources */,
+				CEB161C214208F610031B034 /* usa_texture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE269CC7141BF49D00704362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE269CE0141BF49D00704362 /* main.m in Sources */,
+				CE269CE4141BF49D00704362 /* BouncySquareAppDelegate.m in Sources */,
+				CE269CF1141BF49D00704362 /* BouncySquareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE269CDC141BF49D00704362 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE269CDD141BF49D00704362 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE269CE5141BF49D00704362 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE269CE6141BF49D00704362 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE269CE8141BF49D00704362 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE269CE9141BF49D00704362 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE269CF2141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE269CF3141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE269CF5141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncySquare/BouncySquare-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "BouncySquare/BouncySquare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE269CF6141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncySquare/BouncySquare-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "BouncySquare/BouncySquare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "BouncySquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF2141BF49D00704362 /* Debug */,
+				CE269CF3141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "BouncySquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF5141BF49D00704362 /* Debug */,
+				CE269CF6141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE269CC2141BF49C00704362 /* Project object */;
+}

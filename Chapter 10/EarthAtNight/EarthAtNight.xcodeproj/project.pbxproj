@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3F507C1419B74C00CDEE02 /* earth_atmo_2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3F507B1419B74C00CDEE02 /* earth_atmo_2.plist */; };
+		CE4A4D2514180C9800312DAD /* earth_atmo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4A4D2414180C9800312DAD /* earth_atmo.plist */; };
+		CE4E4431142FC94200EF927F /* nightside.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CE057F9D142FC716001AEF6B /* nightside.fsh */; };
+		CE4E4432142FC94200EF927F /* nightside.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE057F9E142FC716001AEF6B /* nightside.vsh */; };
+		CE4E4438142FFAAD00EF927F /* clouds_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4E4437142FFAAD00EF927F /* clouds_1024.png */; };
+		CE86E8DD141600790014AA63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86E8DC141600790014AA63 /* UIKit.framework */; };
+		CE86E8DF141600790014AA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86E8DE141600790014AA63 /* Foundation.framework */; };
+		CE86E8E1141600790014AA63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86E8E0141600790014AA63 /* CoreGraphics.framework */; };
+		CE86E8E3141600790014AA63 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86E8E2141600790014AA63 /* GLKit.framework */; };
+		CE86E8E5141600790014AA63 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86E8E4141600790014AA63 /* OpenGLES.framework */; };
+		CE86E8EB141600790014AA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE86E8E9141600790014AA63 /* InfoPlist.strings */; };
+		CE86E8ED141600790014AA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86E8EC141600790014AA63 /* main.m */; };
+		CE86E8F1141600790014AA63 /* EarthAtNightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86E8F0141600790014AA63 /* EarthAtNightAppDelegate.m */; };
+		CE86E8F4141600790014AA63 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE86E8F2141600790014AA63 /* MainStoryboard_iPhone.storyboard */; };
+		CE86E8F7141600790014AA63 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE86E8F5141600790014AA63 /* MainStoryboard_iPad.storyboard */; };
+		CE86E8FB141600790014AA63 /* dayside.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE86E8FA141600790014AA63 /* dayside.vsh */; };
+		CE86E8FE141600790014AA63 /* EarthAtNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86E8FD141600790014AA63 /* EarthAtNightViewController.m */; };
+		CE86E907141601190014AA63 /* planet.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE86E906141601190014AA63 /* planet.mm */; };
+		CE86E909141602560014AA63 /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CE86E908141602560014AA63 /* earth_light.png */; };
+		CE86E92F141691F80014AA63 /* earth_night.png in Resources */ = {isa = PBXBuildFile; fileRef = CE86E92E141691F80014AA63 /* earth_night.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CEFD495C1440BDAE00CEB597 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		CE057F92142FB2F0001AEF6B /* specular.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = specular.fsh; path = Shaders/specular.fsh; sourceTree = "<group>"; };
+		CE057F93142FB2F0001AEF6B /* specular.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = specular.vsh; path = Shaders/specular.vsh; sourceTree = "<group>"; };
+		CE057F9D142FC716001AEF6B /* nightside.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = nightside.fsh; path = Shaders/nightside.fsh; sourceTree = "<group>"; };
+		CE057F9E142FC716001AEF6B /* nightside.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = nightside.vsh; path = Shaders/nightside.vsh; sourceTree = "<group>"; };
+		CE3F507B1419B74C00CDEE02 /* earth_atmo_2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = earth_atmo_2.plist; path = assets/earth_atmo_2.plist; sourceTree = "<group>"; };
+		CE4A4D2414180C9800312DAD /* earth_atmo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = earth_atmo.plist; path = assets/earth_atmo.plist; sourceTree = "<group>"; };
+		CE4E4437142FFAAD00EF927F /* clouds_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clouds_1024.png; path = assets/clouds_1024.png; sourceTree = "<group>"; };
+		CE4E443E14301ABB00EF927F /* dayside.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = dayside.fsh; path = Shaders/dayside.fsh; sourceTree = "<group>"; };
+		CE86E8D8141600790014AA63 /* EarthAtNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthAtNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE86E8DC141600790014AA63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE86E8DE141600790014AA63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE86E8E0141600790014AA63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE86E8E2141600790014AA63 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE86E8E4141600790014AA63 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE86E8E8141600790014AA63 /* EarthAtNight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EarthAtNight-Info.plist"; sourceTree = "<group>"; };
+		CE86E8EA141600790014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE86E8EC141600790014AA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE86E8EE141600790014AA63 /* EarthAtNight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarthAtNight-Prefix.pch"; sourceTree = "<group>"; };
+		CE86E8EF141600790014AA63 /* EarthAtNightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthAtNightAppDelegate.h; sourceTree = "<group>"; };
+		CE86E8F0141600790014AA63 /* EarthAtNightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAtNightAppDelegate.m; sourceTree = "<group>"; };
+		CE86E8F3141600790014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CE86E8F6141600790014AA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CE86E8FA141600790014AA63 /* dayside.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = dayside.vsh; path = Shaders/dayside.vsh; sourceTree = "<group>"; };
+		CE86E8FC141600790014AA63 /* EarthAtNightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthAtNightViewController.h; sourceTree = "<group>"; };
+		CE86E8FD141600790014AA63 /* EarthAtNightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthAtNightViewController.m; sourceTree = "<group>"; };
+		CE86E904141601190014AA63 /* OpenglIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglIOS.h; sourceTree = "<group>"; };
+		CE86E905141601190014AA63 /* planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planet.h; sourceTree = "<group>"; };
+		CE86E906141601190014AA63 /* planet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = planet.mm; sourceTree = "<group>"; };
+		CE86E908141602560014AA63 /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_light.png; path = assets/earth_light.png; sourceTree = "<group>"; };
+		CE86E92E141691F80014AA63 /* earth_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_night.png; path = assets/earth_night.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE86E8D5141600790014AA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE86E8DD141600790014AA63 /* UIKit.framework in Frameworks */,
+				CE86E8DF141600790014AA63 /* Foundation.framework in Frameworks */,
+				CE86E8E1141600790014AA63 /* CoreGraphics.framework in Frameworks */,
+				CE86E8E3141600790014AA63 /* GLKit.framework in Frameworks */,
+				CE86E8E5141600790014AA63 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE86E8CD141600790014AA63 = {
+			isa = PBXGroup;
+			children = (
+				CE86E8E6141600790014AA63 /* EarthAtNight */,
+				CE86E8DB141600790014AA63 /* Frameworks */,
+				CE86E8D9141600790014AA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE86E8D9141600790014AA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE86E8D8141600790014AA63 /* EarthAtNight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE86E8DB141600790014AA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE86E8DC141600790014AA63 /* UIKit.framework */,
+				CE86E8DE141600790014AA63 /* Foundation.framework */,
+				CE86E8E0141600790014AA63 /* CoreGraphics.framework */,
+				CE86E8E2141600790014AA63 /* GLKit.framework */,
+				CE86E8E4141600790014AA63 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE86E8E6141600790014AA63 /* EarthAtNight */ = {
+			isa = PBXGroup;
+			children = (
+				CE86E93014169E5D0014AA63 /* shader */,
+				CE86E8EF141600790014AA63 /* EarthAtNightAppDelegate.h */,
+				CE86E8F0141600790014AA63 /* EarthAtNightAppDelegate.m */,
+				CE86E8F2141600790014AA63 /* MainStoryboard_iPhone.storyboard */,
+				CE86E8F5141600790014AA63 /* MainStoryboard_iPad.storyboard */,
+				CE86E8FC141600790014AA63 /* EarthAtNightViewController.h */,
+				CE86E8FD141600790014AA63 /* EarthAtNightViewController.m */,
+				CE86E904141601190014AA63 /* OpenglIOS.h */,
+				CE86E905141601190014AA63 /* planet.h */,
+				CE86E906141601190014AA63 /* planet.mm */,
+				CE86E8E7141600790014AA63 /* Supporting Files */,
+			);
+			name = EarthAtNight;
+			path = AtmoShader;
+			sourceTree = "<group>";
+		};
+		CE86E8E7141600790014AA63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E4437142FFAAD00EF927F /* clouds_1024.png */,
+				CE86E908141602560014AA63 /* earth_light.png */,
+				CE86E92E141691F80014AA63 /* earth_night.png */,
+				CE86E8E8141600790014AA63 /* EarthAtNight-Info.plist */,
+				CE86E8E9141600790014AA63 /* InfoPlist.strings */,
+				CE86E8EC141600790014AA63 /* main.m */,
+				CE86E8EE141600790014AA63 /* EarthAtNight-Prefix.pch */,
+				CE4A4D2414180C9800312DAD /* earth_atmo.plist */,
+				CE3F507B1419B74C00CDEE02 /* earth_atmo_2.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE86E93014169E5D0014AA63 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				CE057F92142FB2F0001AEF6B /* specular.fsh */,
+				CE057F93142FB2F0001AEF6B /* specular.vsh */,
+				CE4E443E14301ABB00EF927F /* dayside.fsh */,
+				CE86E8FA141600790014AA63 /* dayside.vsh */,
+				CE057F9D142FC716001AEF6B /* nightside.fsh */,
+				CE057F9E142FC716001AEF6B /* nightside.vsh */,
+			);
+			name = shader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE86E8D7141600790014AA63 /* EarthAtNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE86E901141600790014AA63 /* Build configuration list for PBXNativeTarget "EarthAtNight" */;
+			buildPhases = (
+				CE86E8D4141600790014AA63 /* Sources */,
+				CE86E8D5141600790014AA63 /* Frameworks */,
+				CE86E8D6141600790014AA63 /* Resources */,
+			);
+			buildRules = (
+				CEFD495C1440BDAE00CEB597 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = EarthAtNight;
+			productName = AtmoShader;
+			productReference = CE86E8D8141600790014AA63 /* EarthAtNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE86E8CF141600790014AA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE86E8D2141600790014AA63 /* Build configuration list for PBXProject "EarthAtNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE86E8CD141600790014AA63;
+			productRefGroup = CE86E8D9141600790014AA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE86E8D7141600790014AA63 /* EarthAtNight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE86E8D6141600790014AA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E4431142FC94200EF927F /* nightside.fsh in Resources */,
+				CE4E4432142FC94200EF927F /* nightside.vsh in Resources */,
+				CE86E8EB141600790014AA63 /* InfoPlist.strings in Resources */,
+				CE86E8F4141600790014AA63 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE86E8F7141600790014AA63 /* MainStoryboard_iPad.storyboard in Resources */,
+				CE86E8FB141600790014AA63 /* dayside.vsh in Resources */,
+				CE86E909141602560014AA63 /* earth_light.png in Resources */,
+				CE86E92F141691F80014AA63 /* earth_night.png in Resources */,
+				CE4A4D2514180C9800312DAD /* earth_atmo.plist in Resources */,
+				CE3F507C1419B74C00CDEE02 /* earth_atmo_2.plist in Resources */,
+				CE4E4438142FFAAD00EF927F /* clouds_1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE86E8D4141600790014AA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE86E8ED141600790014AA63 /* main.m in Sources */,
+				CE86E8F1141600790014AA63 /* EarthAtNightAppDelegate.m in Sources */,
+				CE86E8FE141600790014AA63 /* EarthAtNightViewController.m in Sources */,
+				CE86E907141601190014AA63 /* planet.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE86E8E9141600790014AA63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE86E8EA141600790014AA63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE86E8F2141600790014AA63 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE86E8F3141600790014AA63 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE86E8F5141600790014AA63 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE86E8F6141600790014AA63 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE86E8FF141600790014AA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE86E900141600790014AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE86E902141600790014AA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtmoShader/EarthAtNight-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "AtmoShader/EarthAtNight-Info.plist";
+				PRODUCT_NAME = EarthAtNight;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE86E903141600790014AA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtmoShader/EarthAtNight-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "AtmoShader/EarthAtNight-Info.plist";
+				PRODUCT_NAME = EarthAtNight;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE86E8D2141600790014AA63 /* Build configuration list for PBXProject "EarthAtNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE86E8FF141600790014AA63 /* Debug */,
+				CE86E900141600790014AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE86E901141600790014AA63 /* Build configuration list for PBXNativeTarget "EarthAtNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE86E902141600790014AA63 /* Debug */,
+				CE86E903141600790014AA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE86E8CF141600790014AA63 /* Project object */;
+}

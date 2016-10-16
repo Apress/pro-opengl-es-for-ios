@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE10DBAF143675AB006FBFFB /* hedly1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBA9143675AA006FBFFB /* hedly1.png */; };
+		CE10DBB0143675AB006FBFFB /* hedly2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBAA143675AA006FBFFB /* hedly2.png */; };
+		CE10DBB1143675AB006FBFFB /* hedly3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBAB143675AA006FBFFB /* hedly3.png */; };
+		CE10DBB2143675AB006FBFFB /* hedly4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBAC143675AA006FBFFB /* hedly4.png */; };
+		CE10DBB3143675AB006FBFFB /* hedly5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBAD143675AA006FBFFB /* hedly5.png */; };
+		CE10DBB4143675AB006FBFFB /* hedly6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE10DBAE143675AB006FBFFB /* hedly6.png */; };
+		CE99667A1412BEF100F2E47E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9966791412BEF100F2E47E /* UIKit.framework */; };
+		CE99667C1412BEF100F2E47E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99667B1412BEF100F2E47E /* Foundation.framework */; };
+		CE99667E1412BEF100F2E47E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99667D1412BEF100F2E47E /* CoreGraphics.framework */; };
+		CE9966801412BEF100F2E47E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99667F1412BEF100F2E47E /* GLKit.framework */; };
+		CE9966821412BEF100F2E47E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9966811412BEF100F2E47E /* OpenGLES.framework */; };
+		CE9966881412BEF100F2E47E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9966861412BEF100F2E47E /* InfoPlist.strings */; };
+		CE99668A1412BEF100F2E47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9966891412BEF100F2E47E /* main.m */; };
+		CE99668E1412BEF200F2E47E /* GLKReflectionMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99668D1412BEF200F2E47E /* GLKReflectionMapAppDelegate.m */; };
+		CE9966911412BEF200F2E47E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE99668F1412BEF200F2E47E /* MainStoryboard_iPhone.storyboard */; };
+		CE9966941412BEF200F2E47E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9966921412BEF200F2E47E /* MainStoryboard_iPad.storyboard */; };
+		CE9966961412BEF200F2E47E /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CE9966951412BEF200F2E47E /* Shader.fsh */; };
+		CE9966981412BEF200F2E47E /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE9966971412BEF200F2E47E /* Shader.vsh */; };
+		CE99669B1412BEF200F2E47E /* GLKReflectionMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99669A1412BEF200F2E47E /* GLKReflectionMapViewController.m */; };
+		CE9966A51412C01D00F2E47E /* hedly.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9966A11412C01D00F2E47E /* hedly.png */; };
+		CE9966A61412C01D00F2E47E /* moon_highlands.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9966A21412C01D00F2E47E /* moon_highlands.png */; };
+		CE9966A71412C01D00F2E47E /* rgb_splats.256.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9966A31412C01D00F2E47E /* rgb_splats.256.png */; };
+		CE9966A81412C01D00F2E47E /* usa_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9966A41412C01D00F2E47E /* usa_texture.png */; };
+		CE9966AE1412C0D600F2E47E /* planet.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE9966AD1412C0D600F2E47E /* planet.mm */; };
+		CE9966B01412C37D00F2E47E /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9966AF1412C37D00F2E47E /* earth_light.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE10DBA9143675AA006FBFFB /* hedly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly1.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly1.png"; sourceTree = "<group>"; };
+		CE10DBAA143675AA006FBFFB /* hedly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly2.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly2.png"; sourceTree = "<group>"; };
+		CE10DBAB143675AA006FBFFB /* hedly3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly3.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly3.png"; sourceTree = "<group>"; };
+		CE10DBAC143675AA006FBFFB /* hedly4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly4.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly4.png"; sourceTree = "<group>"; };
+		CE10DBAD143675AA006FBFFB /* hedly5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly5.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly5.png"; sourceTree = "<group>"; };
+		CE10DBAE143675AB006FBFFB /* hedly6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly6.png; path = "../../../../../../Documents/Apress/IPhone-OpenGL book 1/First Draft/Chapter 10/Retweak/Artwork/assets/hedly6.png"; sourceTree = "<group>"; };
+		CE9966751412BEF100F2E47E /* GLKReflectionMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLKReflectionMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9966791412BEF100F2E47E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE99667B1412BEF100F2E47E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE99667D1412BEF100F2E47E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE99667F1412BEF100F2E47E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE9966811412BEF100F2E47E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE9966851412BEF100F2E47E /* GLKReflectionMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLKReflectionMap-Info.plist"; sourceTree = "<group>"; };
+		CE9966871412BEF100F2E47E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9966891412BEF100F2E47E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE99668B1412BEF100F2E47E /* GLKReflectionMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLKReflectionMap-Prefix.pch"; sourceTree = "<group>"; };
+		CE99668C1412BEF200F2E47E /* GLKReflectionMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLKReflectionMapAppDelegate.h; sourceTree = "<group>"; };
+		CE99668D1412BEF200F2E47E /* GLKReflectionMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLKReflectionMapAppDelegate.m; sourceTree = "<group>"; };
+		CE9966901412BEF200F2E47E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CE9966931412BEF200F2E47E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CE9966951412BEF200F2E47E /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CE9966971412BEF200F2E47E /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CE9966991412BEF200F2E47E /* GLKReflectionMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLKReflectionMapViewController.h; sourceTree = "<group>"; };
+		CE99669A1412BEF200F2E47E /* GLKReflectionMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLKReflectionMapViewController.m; sourceTree = "<group>"; };
+		CE9966A11412C01D00F2E47E /* hedly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly.png; path = assets/hedly.png; sourceTree = "<group>"; };
+		CE9966A21412C01D00F2E47E /* moon_highlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon_highlands.png; path = assets/moon_highlands.png; sourceTree = "<group>"; };
+		CE9966A31412C01D00F2E47E /* rgb_splats.256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rgb_splats.256.png; path = assets/rgb_splats.256.png; sourceTree = "<group>"; };
+		CE9966A41412C01D00F2E47E /* usa_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usa_texture.png; path = assets/usa_texture.png; sourceTree = "<group>"; };
+		CE9966AC1412C0D600F2E47E /* planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planet.h; sourceTree = "<group>"; };
+		CE9966AD1412C0D600F2E47E /* planet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = planet.mm; sourceTree = "<group>"; };
+		CE9966AF1412C37D00F2E47E /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_light.png; path = assets/earth_light.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9966721412BEF100F2E47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE99667A1412BEF100F2E47E /* UIKit.framework in Frameworks */,
+				CE99667C1412BEF100F2E47E /* Foundation.framework in Frameworks */,
+				CE99667E1412BEF100F2E47E /* CoreGraphics.framework in Frameworks */,
+				CE9966801412BEF100F2E47E /* GLKit.framework in Frameworks */,
+				CE9966821412BEF100F2E47E /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE99666A1412BEF100F2E47E = {
+			isa = PBXGroup;
+			children = (
+				CE9966831412BEF100F2E47E /* GLKReflectionMap */,
+				CE9966781412BEF100F2E47E /* Frameworks */,
+				CE9966761412BEF100F2E47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9966761412BEF100F2E47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9966751412BEF100F2E47E /* GLKReflectionMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9966781412BEF100F2E47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9966791412BEF100F2E47E /* UIKit.framework */,
+				CE99667B1412BEF100F2E47E /* Foundation.framework */,
+				CE99667D1412BEF100F2E47E /* CoreGraphics.framework */,
+				CE99667F1412BEF100F2E47E /* GLKit.framework */,
+				CE9966811412BEF100F2E47E /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9966831412BEF100F2E47E /* GLKReflectionMap */ = {
+			isa = PBXGroup;
+			children = (
+				CE99668C1412BEF200F2E47E /* GLKReflectionMapAppDelegate.h */,
+				CE99668D1412BEF200F2E47E /* GLKReflectionMapAppDelegate.m */,
+				CE99668F1412BEF200F2E47E /* MainStoryboard_iPhone.storyboard */,
+				CE9966921412BEF200F2E47E /* MainStoryboard_iPad.storyboard */,
+				CE9966951412BEF200F2E47E /* Shader.fsh */,
+				CE9966971412BEF200F2E47E /* Shader.vsh */,
+				CE9966991412BEF200F2E47E /* GLKReflectionMapViewController.h */,
+				CE99669A1412BEF200F2E47E /* GLKReflectionMapViewController.m */,
+				CE9966AC1412C0D600F2E47E /* planet.h */,
+				CE9966AD1412C0D600F2E47E /* planet.mm */,
+				CE9966841412BEF100F2E47E /* Supporting Files */,
+			);
+			path = GLKReflectionMap;
+			sourceTree = "<group>";
+		};
+		CE9966841412BEF100F2E47E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE10DBA9143675AA006FBFFB /* hedly1.png */,
+				CE10DBAA143675AA006FBFFB /* hedly2.png */,
+				CE10DBAB143675AA006FBFFB /* hedly3.png */,
+				CE10DBAC143675AA006FBFFB /* hedly4.png */,
+				CE10DBAD143675AA006FBFFB /* hedly5.png */,
+				CE10DBAE143675AB006FBFFB /* hedly6.png */,
+				CE9966AF1412C37D00F2E47E /* earth_light.png */,
+				CE9966A11412C01D00F2E47E /* hedly.png */,
+				CE9966A21412C01D00F2E47E /* moon_highlands.png */,
+				CE9966A31412C01D00F2E47E /* rgb_splats.256.png */,
+				CE9966A41412C01D00F2E47E /* usa_texture.png */,
+				CE9966851412BEF100F2E47E /* GLKReflectionMap-Info.plist */,
+				CE9966861412BEF100F2E47E /* InfoPlist.strings */,
+				CE9966891412BEF100F2E47E /* main.m */,
+				CE99668B1412BEF100F2E47E /* GLKReflectionMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9966741412BEF100F2E47E /* GLKReflectionMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE99669E1412BEF200F2E47E /* Build configuration list for PBXNativeTarget "GLKReflectionMap" */;
+			buildPhases = (
+				CE9966711412BEF100F2E47E /* Sources */,
+				CE9966721412BEF100F2E47E /* Frameworks */,
+				CE9966731412BEF100F2E47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLKReflectionMap;
+			productName = GLKReflectionMap;
+			productReference = CE9966751412BEF100F2E47E /* GLKReflectionMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE99666C1412BEF100F2E47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE99666F1412BEF100F2E47E /* Build configuration list for PBXProject "GLKReflectionMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE99666A1412BEF100F2E47E;
+			productRefGroup = CE9966761412BEF100F2E47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9966741412BEF100F2E47E /* GLKReflectionMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9966731412BEF100F2E47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9966881412BEF100F2E47E /* InfoPlist.strings in Resources */,
+				CE9966911412BEF200F2E47E /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE9966941412BEF200F2E47E /* MainStoryboard_iPad.storyboard in Resources */,
+				CE9966961412BEF200F2E47E /* Shader.fsh in Resources */,
+				CE9966981412BEF200F2E47E /* Shader.vsh in Resources */,
+				CE9966A51412C01D00F2E47E /* hedly.png in Resources */,
+				CE9966A61412C01D00F2E47E /* moon_highlands.png in Resources */,
+				CE9966A71412C01D00F2E47E /* rgb_splats.256.png in Resources */,
+				CE9966A81412C01D00F2E47E /* usa_texture.png in Resources */,
+				CE9966B01412C37D00F2E47E /* earth_light.png in Resources */,
+				CE10DBAF143675AB006FBFFB /* hedly1.png in Resources */,
+				CE10DBB0143675AB006FBFFB /* hedly2.png in Resources */,
+				CE10DBB1143675AB006FBFFB /* hedly3.png in Resources */,
+				CE10DBB2143675AB006FBFFB /* hedly4.png in Resources */,
+				CE10DBB3143675AB006FBFFB /* hedly5.png in Resources */,
+				CE10DBB4143675AB006FBFFB /* hedly6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9966711412BEF100F2E47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE99668A1412BEF100F2E47E /* main.m in Sources */,
+				CE99668E1412BEF200F2E47E /* GLKReflectionMapAppDelegate.m in Sources */,
+				CE99669B1412BEF200F2E47E /* GLKReflectionMapViewController.m in Sources */,
+				CE9966AE1412C0D600F2E47E /* planet.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9966861412BEF100F2E47E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9966871412BEF100F2E47E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE99668F1412BEF200F2E47E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9966901412BEF200F2E47E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9966921412BEF200F2E47E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9966931412BEF200F2E47E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE99669C1412BEF200F2E47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE99669D1412BEF200F2E47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE99669F1412BEF200F2E47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLKReflectionMap/GLKReflectionMap-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GLKReflectionMap/GLKReflectionMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE9966A01412BEF200F2E47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLKReflectionMap/GLKReflectionMap-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GLKReflectionMap/GLKReflectionMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE99666F1412BEF100F2E47E /* Build configuration list for PBXProject "GLKReflectionMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE99669C1412BEF200F2E47E /* Debug */,
+				CE99669D1412BEF200F2E47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE99669E1412BEF200F2E47E /* Build configuration list for PBXNativeTarget "GLKReflectionMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE99669F1412BEF200F2E47E /* Debug */,
+				CE9966A01412BEF200F2E47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE99666C1412BEF100F2E47E /* Project object */;
+}

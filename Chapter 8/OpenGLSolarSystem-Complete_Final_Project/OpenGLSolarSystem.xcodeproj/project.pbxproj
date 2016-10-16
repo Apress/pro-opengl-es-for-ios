@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CCF141BF49D00704362 /* UIKit.framework */; };
+		CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD1141BF49D00704362 /* Foundation.framework */; };
+		CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD3141BF49D00704362 /* CoreGraphics.framework */; };
+		CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD5141BF49D00704362 /* GLKit.framework */; };
+		CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD7141BF49D00704362 /* OpenGLES.framework */; };
+		CE55562614273B8700155657 /* Flare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55562514273B8700155657 /* Flare.m */; };
+		CE55562914273B9100155657 /* LensFlare.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE55562814273B9100155657 /* LensFlare.mm */; };
+		CE5556461427F56400155657 /* OpenGLConstellations.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5556451427F56400155657 /* OpenGLConstellations.mm */; };
+		CE5556491427F63F00155657 /* OpenGLStars.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE5556481427F63E00155657 /* OpenGLStars.mm */; };
+		CE55564F142800D900155657 /* outlines.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE55564E142800D900155657 /* outlines.plist */; };
+		CE555651142800E400155657 /* stars.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE555650142800E400155657 /* stars.plist */; };
+		CE55565D142807FE00155657 /* OpenGLOutlines.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE55565C142807FD00155657 /* OpenGLOutlines.mm */; };
+		CE555665142809B200155657 /* OpenGLText.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE555662142809B200155657 /* OpenGLText.mm */; };
+		CE555666142809B200155657 /* OpenGLUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE555664142809B200155657 /* OpenGLUtils.mm */; };
+		CE555669142809C400155657 /* OpenGLCreateTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE555668142809C400155657 /* OpenGLCreateTexture.mm */; };
+		CE5556F71428F72500155657 /* flare1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556DE1428F72500155657 /* flare1.png */; };
+		CE5556F81428F72500155657 /* flare2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556DF1428F72500155657 /* flare2.png */; };
+		CE5556F91428F72500155657 /* flare3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E01428F72500155657 /* flare3.png */; };
+		CE5556FA1428F72500155657 /* flare_fuzzy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E11428F72500155657 /* flare_fuzzy.png */; };
+		CE5556FB1428F72500155657 /* flare_spikey.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E21428F72500155657 /* flare_spikey.png */; };
+		CE5556FC1428F72500155657 /* gimp_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E31428F72500155657 /* gimp_sun.png */; };
+		CE5556FD1428F72500155657 /* gimp_sun1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E41428F72500155657 /* gimp_sun1.png */; };
+		CE5556FE1428F72500155657 /* gimp_sun2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E51428F72500155657 /* gimp_sun2.png */; };
+		CE5556FF1428F72500155657 /* gimp_sun3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E61428F72500155657 /* gimp_sun3.png */; };
+		CE5557001428F72500155657 /* glow.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E71428F72500155657 /* glow.bmp */; };
+		CE5557011428F72500155657 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E81428F72500155657 /* glow.png */; };
+		CE5557021428F72500155657 /* halo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556E91428F72500155657 /* halo.png */; };
+		CE5557031428F72500155657 /* halo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556EA1428F72500155657 /* halo1.png */; };
+		CE5557041428F72500155657 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556EB1428F72500155657 /* hexagon.png */; };
+		CE5557051428F72500155657 /* hexagon1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556EC1428F72500155657 /* hexagon1.png */; };
+		CE5557061428F72500155657 /* hexagon_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556ED1428F72500155657 /* hexagon_blur.png */; };
+		CE5557071428F72500155657 /* lens_flare_masked.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556EE1428F72500155657 /* lens_flare_masked.png */; };
+		CE5557081428F72500155657 /* pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556EF1428F72500155657 /* pentagon.png */; };
+		CE5557091428F72500155657 /* pentagon_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F01428F72500155657 /* pentagon_blur.png */; };
+		CE55570A1428F72500155657 /* solar-glare1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F11428F72500155657 /* solar-glare1.png */; };
+		CE55570B1428F72500155657 /* sun_surface.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F21428F72500155657 /* sun_surface.png */; };
+		CE55570C1428F72500155657 /* sunglow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F31428F72500155657 /* sunglow.png */; };
+		CE55570D1428F72500155657 /* sunglow2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F41428F72500155657 /* sunglow2.png */; };
+		CE55570E1428F72500155657 /* sunglow2.pxm in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F51428F72500155657 /* sunglow2.pxm */; };
+		CE55570F1428F72500155657 /* sunglow_hc.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5556F61428F72500155657 /* sunglow_hc.png */; };
+		CE55571C1428F73900155657 /* bluebutton-100x35-clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557111428F73900155657 /* bluebutton-100x35-clipped.png */; };
+		CE55571D1428F73900155657 /* bluebutton-100x35.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557121428F73900155657 /* bluebutton-100x35.png */; };
+		CE55571E1428F73900155657 /* bluebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557131428F73900155657 /* bluebutton.png */; };
+		CE55571F1428F73900155657 /* green_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557141428F73900155657 /* green_dot.png */; };
+		CE5557201428F73900155657 /* greenbutton-100x35-clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557151428F73900155657 /* greenbutton-100x35-clipped.png */; };
+		CE5557211428F73900155657 /* greenbutton-100x35.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557161428F73900155657 /* greenbutton-100x35.png */; };
+		CE5557221428F73900155657 /* New UIButton Builder Image.eml in Resources */ = {isa = PBXBuildFile; fileRef = CE5557171428F73900155657 /* New UIButton Builder Image.eml */; };
+		CE5557231428F73900155657 /* purplebutton-100x35-clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557181428F73900155657 /* purplebutton-100x35-clipped.png */; };
+		CE5557241428F73900155657 /* purplebutton-100x35.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557191428F73900155657 /* purplebutton-100x35.png */; };
+		CE5557251428F73900155657 /* redbutton-100x35-clipped.png in Resources */ = {isa = PBXBuildFile; fileRef = CE55571A1428F73900155657 /* redbutton-100x35-clipped.png */; };
+		CE5557261428F73900155657 /* redbutton-100x35.png in Resources */ = {isa = PBXBuildFile; fileRef = CE55571B1428F73900155657 /* redbutton-100x35.png */; };
+		CE5557281428F78200155657 /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5557271428F78200155657 /* earth_light.png */; };
+		CE60A5F9141C630E000874FC /* OpenGLSolarSystemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */; };
+		CE60A5FA141C630E000874FC /* OpenGLSolarSystemViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.mm */; };
+		CE60A613141C652F000874FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE60A611141C652F000874FC /* InfoPlist.strings */; };
+		CE60A616141C654B000874FC /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A615141C654B000874FC /* Planet.m */; };
+		CE96CD3A141C6671007DAAA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96CD39141C6671007DAAA7 /* main.m */; };
+		CE96CD3D141C6E82007DAAA7 /* OpenGLSolarSystemController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.mm */; };
+		CECF6233142580CE000B44F7 /* miniglu.mm in Sources */ = {isa = PBXBuildFile; fileRef = CECF6232142580CE000B44F7 /* miniglu.mm */; };
+		CEFD48E71440252D00CEB597 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD48E31440252D00CEB597 /* MainStoryboard_iPad.storyboard */; };
+		CEFD48E81440252D00CEB597 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD48E51440252D00CEB597 /* MainStoryboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE269CCF141BF49D00704362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE269CD1141BF49D00704362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE269CD3141BF49D00704362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE269CD5141BF49D00704362 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE269CD7141BF49D00704362 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE30C32B141DA0FB00CB13FD /* OpenGLSolarSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystem.h; path = OpenGLSolarSystem/OpenGLSolarSystem.h; sourceTree = SOURCE_ROOT; };
+		CE55562414273B8700155657 /* Flare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flare.h; path = OpenGLSolarSystem/Flare.h; sourceTree = SOURCE_ROOT; };
+		CE55562514273B8700155657 /* Flare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Flare.m; path = OpenGLSolarSystem/Flare.m; sourceTree = SOURCE_ROOT; };
+		CE55562714273B9100155657 /* LensFlare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LensFlare.h; path = OpenGLSolarSystem/LensFlare.h; sourceTree = SOURCE_ROOT; };
+		CE55562814273B9100155657 /* LensFlare.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LensFlare.mm; path = OpenGLSolarSystem/LensFlare.mm; sourceTree = SOURCE_ROOT; };
+		CE5556441427F56400155657 /* OpenGLConstellations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLConstellations.h; path = OpenGLSolarSystem/OpenGLConstellations.h; sourceTree = SOURCE_ROOT; };
+		CE5556451427F56400155657 /* OpenGLConstellations.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLConstellations.mm; path = OpenGLSolarSystem/OpenGLConstellations.mm; sourceTree = SOURCE_ROOT; };
+		CE5556471427F63E00155657 /* OpenGLStars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLStars.h; path = OpenGLSolarSystem/OpenGLStars.h; sourceTree = SOURCE_ROOT; };
+		CE5556481427F63E00155657 /* OpenGLStars.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLStars.mm; path = OpenGLSolarSystem/OpenGLStars.mm; sourceTree = SOURCE_ROOT; };
+		CE55564E142800D900155657 /* outlines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = outlines.plist; path = OpenGLSolarSystem/data/outlines.plist; sourceTree = "<group>"; };
+		CE555650142800E400155657 /* stars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = stars.plist; path = OpenGLSolarSystem/data/stars.plist; sourceTree = "<group>"; };
+		CE55565B142807FD00155657 /* OpenGLOutlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLOutlines.h; path = OpenGLSolarSystem/OpenGLOutlines.h; sourceTree = SOURCE_ROOT; };
+		CE55565C142807FD00155657 /* OpenGLOutlines.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLOutlines.mm; path = OpenGLSolarSystem/OpenGLOutlines.mm; sourceTree = SOURCE_ROOT; };
+		CE555661142809B200155657 /* OpenGLText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLText.h; path = OpenGLSolarSystem/OpenGLText.h; sourceTree = SOURCE_ROOT; };
+		CE555662142809B200155657 /* OpenGLText.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLText.mm; path = OpenGLSolarSystem/OpenGLText.mm; sourceTree = SOURCE_ROOT; };
+		CE555663142809B200155657 /* OpenGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLUtils.h; path = OpenGLSolarSystem/OpenGLUtils.h; sourceTree = SOURCE_ROOT; };
+		CE555664142809B200155657 /* OpenGLUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLUtils.mm; path = OpenGLSolarSystem/OpenGLUtils.mm; sourceTree = SOURCE_ROOT; };
+		CE555667142809C400155657 /* OpenGLCreateTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLCreateTexture.h; path = OpenGLSolarSystem/OpenGLCreateTexture.h; sourceTree = SOURCE_ROOT; };
+		CE555668142809C400155657 /* OpenGLCreateTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLCreateTexture.mm; path = OpenGLSolarSystem/OpenGLCreateTexture.mm; sourceTree = SOURCE_ROOT; };
+		CE5556DE1428F72500155657 /* flare1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare1.png; sourceTree = "<group>"; };
+		CE5556DF1428F72500155657 /* flare2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare2.png; sourceTree = "<group>"; };
+		CE5556E01428F72500155657 /* flare3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare3.png; sourceTree = "<group>"; };
+		CE5556E11428F72500155657 /* flare_fuzzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare_fuzzy.png; sourceTree = "<group>"; };
+		CE5556E21428F72500155657 /* flare_spikey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flare_spikey.png; sourceTree = "<group>"; };
+		CE5556E31428F72500155657 /* gimp_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gimp_sun.png; sourceTree = "<group>"; };
+		CE5556E41428F72500155657 /* gimp_sun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gimp_sun1.png; sourceTree = "<group>"; };
+		CE5556E51428F72500155657 /* gimp_sun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gimp_sun2.png; sourceTree = "<group>"; };
+		CE5556E61428F72500155657 /* gimp_sun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gimp_sun3.png; sourceTree = "<group>"; };
+		CE5556E71428F72500155657 /* glow.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = glow.bmp; sourceTree = "<group>"; };
+		CE5556E81428F72500155657 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
+		CE5556E91428F72500155657 /* halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halo.png; sourceTree = "<group>"; };
+		CE5556EA1428F72500155657 /* halo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halo1.png; sourceTree = "<group>"; };
+		CE5556EB1428F72500155657 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon.png; sourceTree = "<group>"; };
+		CE5556EC1428F72500155657 /* hexagon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon1.png; sourceTree = "<group>"; };
+		CE5556ED1428F72500155657 /* hexagon_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon_blur.png; sourceTree = "<group>"; };
+		CE5556EE1428F72500155657 /* lens_flare_masked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lens_flare_masked.png; sourceTree = "<group>"; };
+		CE5556EF1428F72500155657 /* pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pentagon.png; sourceTree = "<group>"; };
+		CE5556F01428F72500155657 /* pentagon_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pentagon_blur.png; sourceTree = "<group>"; };
+		CE5556F11428F72500155657 /* solar-glare1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "solar-glare1.png"; sourceTree = "<group>"; };
+		CE5556F21428F72500155657 /* sun_surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_surface.png; sourceTree = "<group>"; };
+		CE5556F31428F72500155657 /* sunglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglow.png; sourceTree = "<group>"; };
+		CE5556F41428F72500155657 /* sunglow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglow2.png; sourceTree = "<group>"; };
+		CE5556F51428F72500155657 /* sunglow2.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunglow2.pxm; sourceTree = "<group>"; };
+		CE5556F61428F72500155657 /* sunglow_hc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglow_hc.png; sourceTree = "<group>"; };
+		CE5557111428F73900155657 /* bluebutton-100x35-clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluebutton-100x35-clipped.png"; sourceTree = "<group>"; };
+		CE5557121428F73900155657 /* bluebutton-100x35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluebutton-100x35.png"; sourceTree = "<group>"; };
+		CE5557131428F73900155657 /* bluebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebutton.png; sourceTree = "<group>"; };
+		CE5557141428F73900155657 /* green_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_dot.png; sourceTree = "<group>"; };
+		CE5557151428F73900155657 /* greenbutton-100x35-clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenbutton-100x35-clipped.png"; sourceTree = "<group>"; };
+		CE5557161428F73900155657 /* greenbutton-100x35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenbutton-100x35.png"; sourceTree = "<group>"; };
+		CE5557171428F73900155657 /* New UIButton Builder Image.eml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "New UIButton Builder Image.eml"; sourceTree = "<group>"; };
+		CE5557181428F73900155657 /* purplebutton-100x35-clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purplebutton-100x35-clipped.png"; sourceTree = "<group>"; };
+		CE5557191428F73900155657 /* purplebutton-100x35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purplebutton-100x35.png"; sourceTree = "<group>"; };
+		CE55571A1428F73900155657 /* redbutton-100x35-clipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbutton-100x35-clipped.png"; sourceTree = "<group>"; };
+		CE55571B1428F73900155657 /* redbutton-100x35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redbutton-100x35.png"; sourceTree = "<group>"; };
+		CE5557271428F78200155657 /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_light.png; path = OpenGLSolarSystem/assets/images/earth_light.png; sourceTree = SOURCE_ROOT; };
+		CE60A5F5141C630E000874FC /* OpenGLSolarSystemAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemAppDelegate.h; path = OpenGLSolarSystem/OpenGLSolarSystemAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLSolarSystemAppDelegate.m; path = OpenGLSolarSystem/OpenGLSolarSystemAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CE60A5F7141C630E000874FC /* OpenGLSolarSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemViewController.h; path = OpenGLSolarSystem/OpenGLSolarSystemViewController.h; sourceTree = SOURCE_ROOT; };
+		CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLSolarSystemViewController.mm; path = OpenGLSolarSystem/OpenGLSolarSystemViewController.mm; sourceTree = SOURCE_ROOT; };
+		CE60A600141C6342000874FC /* OpenGLSolarSystem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OpenGLSolarSystem-Info.plist"; path = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE60A612141C652F000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = OpenGLSolarSystem/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		CE60A614141C653E000874FC /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = OpenGLSolarSystem/Planet.h; sourceTree = SOURCE_ROOT; };
+		CE60A615141C654B000874FC /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planet.m; path = OpenGLSolarSystem/Planet.m; sourceTree = SOURCE_ROOT; };
+		CE96CD39141C6671007DAAA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OpenGLSolarSystem/main.m; sourceTree = SOURCE_ROOT; };
+		CE96CD3B141C6E81007DAAA7 /* OpenGLSolarSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemController.h; path = OpenGLSolarSystem/OpenGLSolarSystemController.h; sourceTree = SOURCE_ROOT; };
+		CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenGLSolarSystemController.mm; path = OpenGLSolarSystem/OpenGLSolarSystemController.mm; sourceTree = SOURCE_ROOT; };
+		CECF6231142580CE000B44F7 /* miniglu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miniglu.h; path = OpenGLSolarSystem/miniglu.h; sourceTree = SOURCE_ROOT; };
+		CECF6232142580CE000B44F7 /* miniglu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = miniglu.mm; path = OpenGLSolarSystem/miniglu.mm; sourceTree = SOURCE_ROOT; };
+		CEFD48E41440252D00CEB597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		CEFD48E61440252D00CEB597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE269CC8141BF49D00704362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */,
+				CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */,
+				CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */,
+				CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */,
+				CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE269CC0141BF49C00704362 = {
+			isa = PBXGroup;
+			children = (
+				CE5557291428F7BE00155657 /* resources */,
+				CE55564D1428006A00155657 /* data */,
+				CE269CD9141BF49D00704362 /* OpenGLSolarSystem */,
+				CE269CCE141BF49D00704362 /* Frameworks */,
+				CE269CCC141BF49D00704362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE269CCC141BF49D00704362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE269CCE141BF49D00704362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCF141BF49D00704362 /* UIKit.framework */,
+				CE269CD1141BF49D00704362 /* Foundation.framework */,
+				CE269CD3141BF49D00704362 /* CoreGraphics.framework */,
+				CE269CD5141BF49D00704362 /* GLKit.framework */,
+				CE269CD7141BF49D00704362 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE269CD9141BF49D00704362 /* OpenGLSolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE55562414273B8700155657 /* Flare.h */,
+				CE55562514273B8700155657 /* Flare.m */,
+				CE55562714273B9100155657 /* LensFlare.h */,
+				CE55562814273B9100155657 /* LensFlare.mm */,
+				CECF6231142580CE000B44F7 /* miniglu.h */,
+				CECF6232142580CE000B44F7 /* miniglu.mm */,
+				CE555667142809C400155657 /* OpenGLCreateTexture.h */,
+				CE555668142809C400155657 /* OpenGLCreateTexture.mm */,
+				CE5556451427F56400155657 /* OpenGLConstellations.mm */,
+				CE55565B142807FD00155657 /* OpenGLOutlines.h */,
+				CE55565C142807FD00155657 /* OpenGLOutlines.mm */,
+				CE30C32B141DA0FB00CB13FD /* OpenGLSolarSystem.h */,
+				CE60A5F5141C630E000874FC /* OpenGLSolarSystemAppDelegate.h */,
+				CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */,
+				CE96CD3B141C6E81007DAAA7 /* OpenGLSolarSystemController.h */,
+				CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.mm */,
+				CE60A5F7141C630E000874FC /* OpenGLSolarSystemViewController.h */,
+				CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.mm */,
+				CE5556441427F56400155657 /* OpenGLConstellations.h */,
+				CE5556471427F63E00155657 /* OpenGLStars.h */,
+				CE5556481427F63E00155657 /* OpenGLStars.mm */,
+				CE555661142809B200155657 /* OpenGLText.h */,
+				CE555662142809B200155657 /* OpenGLText.mm */,
+				CE555663142809B200155657 /* OpenGLUtils.h */,
+				CE555664142809B200155657 /* OpenGLUtils.mm */,
+				CE60A614141C653E000874FC /* Planet.h */,
+				CE60A615141C654B000874FC /* Planet.m */,
+				CEFD48E31440252D00CEB597 /* MainStoryboard_iPad.storyboard */,
+				CEFD48E51440252D00CEB597 /* MainStoryboard_iPhone.storyboard */,
+				CE269CDA141BF49D00704362 /* Supporting Files */,
+			);
+			name = OpenGLSolarSystem;
+			path = BouncySquare;
+			sourceTree = "<group>";
+		};
+		CE269CDA141BF49D00704362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE96CD39141C6671007DAAA7 /* main.m */,
+				CE60A600141C6342000874FC /* OpenGLSolarSystem-Info.plist */,
+				CE60A611141C652F000874FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5555F314273B7800155657 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE5556DD1428F72500155657 /* Flare */,
+				CE5557101428F73900155657 /* UI */,
+			);
+			name = images;
+			path = OpenGLSolarSystem/images;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE55564D1428006A00155657 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CE55564E142800D900155657 /* outlines.plist */,
+				CE555650142800E400155657 /* stars.plist */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		CE5556DD1428F72500155657 /* Flare */ = {
+			isa = PBXGroup;
+			children = (
+				CE5556DE1428F72500155657 /* flare1.png */,
+				CE5556DF1428F72500155657 /* flare2.png */,
+				CE5556E01428F72500155657 /* flare3.png */,
+				CE5556E11428F72500155657 /* flare_fuzzy.png */,
+				CE5556E21428F72500155657 /* flare_spikey.png */,
+				CE5556E31428F72500155657 /* gimp_sun.png */,
+				CE5556E41428F72500155657 /* gimp_sun1.png */,
+				CE5556E51428F72500155657 /* gimp_sun2.png */,
+				CE5556E61428F72500155657 /* gimp_sun3.png */,
+				CE5556E71428F72500155657 /* glow.bmp */,
+				CE5556E81428F72500155657 /* glow.png */,
+				CE5556E91428F72500155657 /* halo.png */,
+				CE5556EA1428F72500155657 /* halo1.png */,
+				CE5556EB1428F72500155657 /* hexagon.png */,
+				CE5556EC1428F72500155657 /* hexagon1.png */,
+				CE5556ED1428F72500155657 /* hexagon_blur.png */,
+				CE5556EE1428F72500155657 /* lens_flare_masked.png */,
+				CE5556EF1428F72500155657 /* pentagon.png */,
+				CE5556F01428F72500155657 /* pentagon_blur.png */,
+				CE5556F11428F72500155657 /* solar-glare1.png */,
+				CE5556F21428F72500155657 /* sun_surface.png */,
+				CE5556F31428F72500155657 /* sunglow.png */,
+				CE5556F41428F72500155657 /* sunglow2.png */,
+				CE5556F51428F72500155657 /* sunglow2.pxm */,
+				CE5556F61428F72500155657 /* sunglow_hc.png */,
+			);
+			name = Flare;
+			path = OpenGLSolarSystem/assets/images/Flare;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE5557101428F73900155657 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE5557111428F73900155657 /* bluebutton-100x35-clipped.png */,
+				CE5557121428F73900155657 /* bluebutton-100x35.png */,
+				CE5557131428F73900155657 /* bluebutton.png */,
+				CE5557141428F73900155657 /* green_dot.png */,
+				CE5557151428F73900155657 /* greenbutton-100x35-clipped.png */,
+				CE5557161428F73900155657 /* greenbutton-100x35.png */,
+				CE5557171428F73900155657 /* New UIButton Builder Image.eml */,
+				CE5557181428F73900155657 /* purplebutton-100x35-clipped.png */,
+				CE5557191428F73900155657 /* purplebutton-100x35.png */,
+				CE55571A1428F73900155657 /* redbutton-100x35-clipped.png */,
+				CE55571B1428F73900155657 /* redbutton-100x35.png */,
+			);
+			name = UI;
+			path = OpenGLSolarSystem/assets/images/UI;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE5557291428F7BE00155657 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE5557271428F78200155657 /* earth_light.png */,
+				CE5555F314273B7800155657 /* images */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE269CCA141BF49D00704362 /* OpenGLSolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "OpenGLSolarSystem" */;
+			buildPhases = (
+				CE269CC7141BF49D00704362 /* Sources */,
+				CE269CC8141BF49D00704362 /* Frameworks */,
+				CE269CC9141BF49D00704362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLSolarSystem;
+			productName = BouncySquare;
+			productReference = CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE269CC2141BF49C00704362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "OpenGLSolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE269CC0141BF49C00704362;
+			productRefGroup = CE269CCC141BF49D00704362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE269CCA141BF49D00704362 /* OpenGLSolarSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE269CC9141BF49D00704362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60A613141C652F000874FC /* InfoPlist.strings in Resources */,
+				CE55564F142800D900155657 /* outlines.plist in Resources */,
+				CE555651142800E400155657 /* stars.plist in Resources */,
+				CE5556F71428F72500155657 /* flare1.png in Resources */,
+				CE5556F81428F72500155657 /* flare2.png in Resources */,
+				CE5556F91428F72500155657 /* flare3.png in Resources */,
+				CE5556FA1428F72500155657 /* flare_fuzzy.png in Resources */,
+				CE5556FB1428F72500155657 /* flare_spikey.png in Resources */,
+				CE5556FC1428F72500155657 /* gimp_sun.png in Resources */,
+				CE5556FD1428F72500155657 /* gimp_sun1.png in Resources */,
+				CE5556FE1428F72500155657 /* gimp_sun2.png in Resources */,
+				CE5556FF1428F72500155657 /* gimp_sun3.png in Resources */,
+				CE5557001428F72500155657 /* glow.bmp in Resources */,
+				CE5557011428F72500155657 /* glow.png in Resources */,
+				CE5557021428F72500155657 /* halo.png in Resources */,
+				CE5557031428F72500155657 /* halo1.png in Resources */,
+				CE5557041428F72500155657 /* hexagon.png in Resources */,
+				CE5557051428F72500155657 /* hexagon1.png in Resources */,
+				CE5557061428F72500155657 /* hexagon_blur.png in Resources */,
+				CE5557071428F72500155657 /* lens_flare_masked.png in Resources */,
+				CE5557081428F72500155657 /* pentagon.png in Resources */,
+				CE5557091428F72500155657 /* pentagon_blur.png in Resources */,
+				CE55570A1428F72500155657 /* solar-glare1.png in Resources */,
+				CE55570B1428F72500155657 /* sun_surface.png in Resources */,
+				CE55570C1428F72500155657 /* sunglow.png in Resources */,
+				CE55570D1428F72500155657 /* sunglow2.png in Resources */,
+				CE55570E1428F72500155657 /* sunglow2.pxm in Resources */,
+				CE55570F1428F72500155657 /* sunglow_hc.png in Resources */,
+				CE55571C1428F73900155657 /* bluebutton-100x35-clipped.png in Resources */,
+				CE55571D1428F73900155657 /* bluebutton-100x35.png in Resources */,
+				CE55571E1428F73900155657 /* bluebutton.png in Resources */,
+				CE55571F1428F73900155657 /* green_dot.png in Resources */,
+				CE5557201428F73900155657 /* greenbutton-100x35-clipped.png in Resources */,
+				CE5557211428F73900155657 /* greenbutton-100x35.png in Resources */,
+				CE5557221428F73900155657 /* New UIButton Builder Image.eml in Resources */,
+				CE5557231428F73900155657 /* purplebutton-100x35-clipped.png in Resources */,
+				CE5557241428F73900155657 /* purplebutton-100x35.png in Resources */,
+				CE5557251428F73900155657 /* redbutton-100x35-clipped.png in Resources */,
+				CE5557261428F73900155657 /* redbutton-100x35.png in Resources */,
+				CE5557281428F78200155657 /* earth_light.png in Resources */,
+				CEFD48E71440252D00CEB597 /* MainStoryboard_iPad.storyboard in Resources */,
+				CEFD48E81440252D00CEB597 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE269CC7141BF49D00704362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60A5F9141C630E000874FC /* OpenGLSolarSystemAppDelegate.m in Sources */,
+				CE60A5FA141C630E000874FC /* OpenGLSolarSystemViewController.mm in Sources */,
+				CE60A616141C654B000874FC /* Planet.m in Sources */,
+				CE96CD3A141C6671007DAAA7 /* main.m in Sources */,
+				CE96CD3D141C6E82007DAAA7 /* OpenGLSolarSystemController.mm in Sources */,
+				CECF6233142580CE000B44F7 /* miniglu.mm in Sources */,
+				CE55562614273B8700155657 /* Flare.m in Sources */,
+				CE55562914273B9100155657 /* LensFlare.mm in Sources */,
+				CE5556461427F56400155657 /* OpenGLConstellations.mm in Sources */,
+				CE5556491427F63F00155657 /* OpenGLStars.mm in Sources */,
+				CE55565D142807FE00155657 /* OpenGLOutlines.mm in Sources */,
+				CE555665142809B200155657 /* OpenGLText.mm in Sources */,
+				CE555666142809B200155657 /* OpenGLUtils.mm in Sources */,
+				CE555669142809C400155657 /* OpenGLCreateTexture.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE60A611141C652F000874FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE60A612141C652F000874FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFD48E31440252D00CEB597 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD48E41440252D00CEB597 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFD48E51440252D00CEB597 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD48E61440252D00CEB597 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE269CF2141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE269CF3141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE269CF5141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist";
+				PRODUCT_NAME = OpenGLSolarSystem;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE269CF6141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist";
+				PRODUCT_NAME = OpenGLSolarSystem;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "OpenGLSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF2141BF49D00704362 /* Debug */,
+				CE269CF3141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "OpenGLSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF5141BF49D00704362 /* Debug */,
+				CE269CF6141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE269CC2141BF49C00704362 /* Project object */;
+}

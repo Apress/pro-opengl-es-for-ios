@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CCF141BF49D00704362 /* UIKit.framework */; };
+		CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD1141BF49D00704362 /* Foundation.framework */; };
+		CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD3141BF49D00704362 /* CoreGraphics.framework */; };
+		CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD5141BF49D00704362 /* GLKit.framework */; };
+		CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD7141BF49D00704362 /* OpenGLES.framework */; };
+		CE60A5F9141C630E000874FC /* OpenGLSolarSystemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */; };
+		CE60A5FA141C630E000874FC /* OpenGLSolarSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */; };
+		CE60A60D141C6521000874FC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60A60B141C6520000874FC /* MainStoryboard_iPhone.storyboard */; };
+		CE60A610141C6527000874FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */; };
+		CE60A613141C652F000874FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE60A611141C652F000874FC /* InfoPlist.strings */; };
+		CE60A616141C654B000874FC /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A615141C654B000874FC /* Planet.m */; };
+		CE96CD3A141C6671007DAAA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96CD39141C6671007DAAA7 /* main.m */; };
+		CE96CD3D141C6E82007DAAA7 /* OpenGLSolarSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE269CCF141BF49D00704362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE269CD1141BF49D00704362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE269CD3141BF49D00704362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE269CD5141BF49D00704362 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE269CD7141BF49D00704362 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE30C32B141DA0FB00CB13FD /* OpenGLSolarSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystem.h; path = OpenGLSolarSystem/OpenGLSolarSystem.h; sourceTree = SOURCE_ROOT; };
+		CE60A5F5141C630E000874FC /* OpenGLSolarSystemAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemAppDelegate.h; path = OpenGLSolarSystem/OpenGLSolarSystemAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLSolarSystemAppDelegate.m; path = OpenGLSolarSystem/OpenGLSolarSystemAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CE60A5F7141C630E000874FC /* OpenGLSolarSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemViewController.h; path = OpenGLSolarSystem/OpenGLSolarSystemViewController.h; sourceTree = SOURCE_ROOT; };
+		CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLSolarSystemViewController.m; path = OpenGLSolarSystem/OpenGLSolarSystemViewController.m; sourceTree = SOURCE_ROOT; };
+		CE60A600141C6342000874FC /* OpenGLSolarSystem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OpenGLSolarSystem-Info.plist"; path = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE60A60C141C6520000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		CE60A60F141C6527000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		CE60A612141C652F000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = OpenGLSolarSystem/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		CE60A614141C653E000874FC /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = OpenGLSolarSystem/Planet.h; sourceTree = SOURCE_ROOT; };
+		CE60A615141C654B000874FC /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planet.m; path = OpenGLSolarSystem/Planet.m; sourceTree = SOURCE_ROOT; };
+		CE96CD39141C6671007DAAA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OpenGLSolarSystem/main.m; sourceTree = SOURCE_ROOT; };
+		CE96CD3B141C6E81007DAAA7 /* OpenGLSolarSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLSolarSystemController.h; path = OpenGLSolarSystem/OpenGLSolarSystemController.h; sourceTree = SOURCE_ROOT; };
+		CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLSolarSystemController.m; path = OpenGLSolarSystem/OpenGLSolarSystemController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE269CC8141BF49D00704362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */,
+				CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */,
+				CE269CD4141BF49D00704362 /* CoreGraphics.framework in Frameworks */,
+				CE269CD6141BF49D00704362 /* GLKit.framework in Frameworks */,
+				CE269CD8141BF49D00704362 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE269CC0141BF49C00704362 = {
+			isa = PBXGroup;
+			children = (
+				CE269CD9141BF49D00704362 /* OpenGLSolarSystem */,
+				CE269CCE141BF49D00704362 /* Frameworks */,
+				CE269CCC141BF49D00704362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE269CCC141BF49D00704362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE269CCE141BF49D00704362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE269CCF141BF49D00704362 /* UIKit.framework */,
+				CE269CD1141BF49D00704362 /* Foundation.framework */,
+				CE269CD3141BF49D00704362 /* CoreGraphics.framework */,
+				CE269CD5141BF49D00704362 /* GLKit.framework */,
+				CE269CD7141BF49D00704362 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE269CD9141BF49D00704362 /* OpenGLSolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE60A5F5141C630E000874FC /* OpenGLSolarSystemAppDelegate.h */,
+				CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */,
+				CE60A5F7141C630E000874FC /* OpenGLSolarSystemViewController.h */,
+				CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */,
+				CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */,
+				CE60A60B141C6520000874FC /* MainStoryboard_iPhone.storyboard */,
+				CE60A614141C653E000874FC /* Planet.h */,
+				CE60A615141C654B000874FC /* Planet.m */,
+				CE96CD3B141C6E81007DAAA7 /* OpenGLSolarSystemController.h */,
+				CE96CD3C141C6E82007DAAA7 /* OpenGLSolarSystemController.m */,
+				CE30C32B141DA0FB00CB13FD /* OpenGLSolarSystem.h */,
+				CE269CDA141BF49D00704362 /* Supporting Files */,
+			);
+			name = OpenGLSolarSystem;
+			path = BouncySquare;
+			sourceTree = "<group>";
+		};
+		CE269CDA141BF49D00704362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE96CD39141C6671007DAAA7 /* main.m */,
+				CE60A600141C6342000874FC /* OpenGLSolarSystem-Info.plist */,
+				CE60A611141C652F000874FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE269CCA141BF49D00704362 /* OpenGLSolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "OpenGLSolarSystem" */;
+			buildPhases = (
+				CE269CC7141BF49D00704362 /* Sources */,
+				CE269CC8141BF49D00704362 /* Frameworks */,
+				CE269CC9141BF49D00704362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLSolarSystem;
+			productName = BouncySquare;
+			productReference = CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE269CC2141BF49C00704362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "OpenGLSolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE269CC0141BF49C00704362;
+			productRefGroup = CE269CCC141BF49D00704362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE269CCA141BF49D00704362 /* OpenGLSolarSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE269CC9141BF49D00704362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60A60D141C6521000874FC /* MainStoryboard_iPhone.storyboard in Resources */,
+				CE60A610141C6527000874FC /* MainStoryboard_iPad.storyboard in Resources */,
+				CE60A613141C652F000874FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE269CC7141BF49D00704362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60A5F9141C630E000874FC /* OpenGLSolarSystemAppDelegate.m in Sources */,
+				CE60A5FA141C630E000874FC /* OpenGLSolarSystemViewController.m in Sources */,
+				CE60A616141C654B000874FC /* Planet.m in Sources */,
+				CE96CD3A141C6671007DAAA7 /* main.m in Sources */,
+				CE96CD3D141C6E82007DAAA7 /* OpenGLSolarSystemController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE60A60B141C6520000874FC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE60A60C141C6520000874FC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE60A60F141C6527000874FC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CE60A611141C652F000874FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE60A612141C652F000874FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE269CF2141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE269CF3141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE269CF5141BF49D00704362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist";
+				PRODUCT_NAME = OpenGLSolarSystem;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE269CF6141BF49D00704362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist";
+				PRODUCT_NAME = OpenGLSolarSystem;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE269CC5141BF49C00704362 /* Build configuration list for PBXProject "OpenGLSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF2141BF49D00704362 /* Debug */,
+				CE269CF3141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE269CF4141BF49D00704362 /* Build configuration list for PBXNativeTarget "OpenGLSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE269CF5141BF49D00704362 /* Debug */,
+				CE269CF6141BF49D00704362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE269CC2141BF49C00704362 /* Project object */;
+}

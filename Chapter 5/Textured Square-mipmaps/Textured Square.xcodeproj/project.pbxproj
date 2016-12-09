@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDBE53F1411CDEE00AB6FEF /* hedly.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDBE5341411CDEE00AB6FEF /* hedly.png */; };
+		CEDBE5481411D36800AB6FEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDBE5471411D36800AB6FEF /* CoreGraphics.framework */; };
+		CEE3A13B140F557D00843FBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE3A13A140F557D00843FBA /* UIKit.framework */; };
+		CEE3A13D140F557D00843FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE3A13C140F557D00843FBA /* Foundation.framework */; };
+		CEE3A13F140F557D00843FBA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE3A13E140F557D00843FBA /* GLKit.framework */; };
+		CEE3A141140F557D00843FBA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE3A140140F557D00843FBA /* OpenGLES.framework */; };
+		CEE3A147140F557D00843FBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE3A145140F557D00843FBA /* InfoPlist.strings */; };
+		CEE3A149140F557E00843FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3A148140F557E00843FBA /* main.m */; };
+		CEE3A14D140F557E00843FBA /* TexturedSquareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3A14C140F557E00843FBA /* TexturedSquareAppDelegate.m */; };
+		CEE3A150140F557E00843FBA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE3A14E140F557E00843FBA /* MainStoryboard_iPhone.storyboard */; };
+		CEE3A153140F557E00843FBA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE3A151140F557E00843FBA /* MainStoryboard_iPad.storyboard */; };
+		CEE3A155140F557E00843FBA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CEE3A154140F557E00843FBA /* Shader.fsh */; };
+		CEE3A157140F557E00843FBA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CEE3A156140F557E00843FBA /* Shader.vsh */; };
+		CEE3A15A140F557E00843FBA /* TexturedSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3A159140F557E00843FBA /* TexturedSquareViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDBE5341411CDEE00AB6FEF /* hedly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hedly.png; path = assets/hedly.png; sourceTree = "<group>"; };
+		CEDBE5471411D36800AB6FEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE3A136140F557D00843FBA /* Textured Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Textured Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE3A13A140F557D00843FBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE3A13C140F557D00843FBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE3A13E140F557D00843FBA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CEE3A140140F557D00843FBA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEE3A144140F557D00843FBA /* Textured Square-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Textured Square-Info.plist"; sourceTree = "<group>"; };
+		CEE3A146140F557D00843FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE3A148140F557E00843FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE3A14A140F557E00843FBA /* Textured Square-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Textured Square-Prefix.pch"; sourceTree = "<group>"; };
+		CEE3A14B140F557E00843FBA /* TexturedSquareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedSquareAppDelegate.h; sourceTree = "<group>"; };
+		CEE3A14C140F557E00843FBA /* TexturedSquareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TexturedSquareAppDelegate.m; sourceTree = "<group>"; };
+		CEE3A14F140F557E00843FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CEE3A152140F557E00843FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CEE3A154140F557E00843FBA /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CEE3A156140F557E00843FBA /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CEE3A158140F557E00843FBA /* TexturedSquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturedSquareViewController.h; sourceTree = "<group>"; };
+		CEE3A159140F557E00843FBA /* TexturedSquareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TexturedSquareViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE3A133140F557D00843FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3A13B140F557D00843FBA /* UIKit.framework in Frameworks */,
+				CEE3A13D140F557D00843FBA /* Foundation.framework in Frameworks */,
+				CEE3A13F140F557D00843FBA /* GLKit.framework in Frameworks */,
+				CEE3A141140F557D00843FBA /* OpenGLES.framework in Frameworks */,
+				CEDBE5481411D36800AB6FEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE3A12B140F557D00843FBA = {
+			isa = PBXGroup;
+			children = (
+				CEE3A142140F557D00843FBA /* Textured Square */,
+				CEE3A139140F557D00843FBA /* Frameworks */,
+				CEE3A137140F557D00843FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE3A137140F557D00843FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3A136140F557D00843FBA /* Textured Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE3A139140F557D00843FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDBE5471411D36800AB6FEF /* CoreGraphics.framework */,
+				CEE3A13A140F557D00843FBA /* UIKit.framework */,
+				CEE3A13C140F557D00843FBA /* Foundation.framework */,
+				CEE3A13E140F557D00843FBA /* GLKit.framework */,
+				CEE3A140140F557D00843FBA /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE3A142140F557D00843FBA /* Textured Square */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3A14B140F557E00843FBA /* TexturedSquareAppDelegate.h */,
+				CEE3A14C140F557E00843FBA /* TexturedSquareAppDelegate.m */,
+				CEE3A14E140F557E00843FBA /* MainStoryboard_iPhone.storyboard */,
+				CEE3A151140F557E00843FBA /* MainStoryboard_iPad.storyboard */,
+				CEE3A154140F557E00843FBA /* Shader.fsh */,
+				CEE3A156140F557E00843FBA /* Shader.vsh */,
+				CEE3A158140F557E00843FBA /* TexturedSquareViewController.h */,
+				CEE3A159140F557E00843FBA /* TexturedSquareViewController.m */,
+				CEE3A143140F557D00843FBA /* Supporting Files */,
+			);
+			path = "Textured Square";
+			sourceTree = "<group>";
+		};
+		CEE3A143140F557D00843FBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDBE5341411CDEE00AB6FEF /* hedly.png */,
+				CEE3A144140F557D00843FBA /* Textured Square-Info.plist */,
+				CEE3A145140F557D00843FBA /* InfoPlist.strings */,
+				CEE3A148140F557E00843FBA /* main.m */,
+				CEE3A14A140F557E00843FBA /* Textured Square-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE3A135140F557D00843FBA /* Textured Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE3A15D140F557E00843FBA /* Build configuration list for PBXNativeTarget "Textured Square" */;
+			buildPhases = (
+				CEE3A132140F557D00843FBA /* Sources */,
+				CEE3A133140F557D00843FBA /* Frameworks */,
+				CEE3A134140F557D00843FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Textured Square";
+			productName = "Textured Square";
+			productReference = CEE3A136140F557D00843FBA /* Textured Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE3A12D140F557D00843FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEE3A130140F557D00843FBA /* Build configuration list for PBXProject "Textured Square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE3A12B140F557D00843FBA;
+			productRefGroup = CEE3A137140F557D00843FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE3A135140F557D00843FBA /* Textured Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE3A134140F557D00843FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3A147140F557D00843FBA /* InfoPlist.strings in Resources */,
+				CEE3A150140F557E00843FBA /* MainStoryboard_iPhone.storyboard in Resources */,
+				CEE3A153140F557E00843FBA /* MainStoryboard_iPad.storyboard in Resources */,
+				CEE3A155140F557E00843FBA /* Shader.fsh in Resources */,
+				CEE3A157140F557E00843FBA /* Shader.vsh in Resources */,
+				CEDBE53F1411CDEE00AB6FEF /* hedly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE3A132140F557D00843FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3A149140F557E00843FBA /* main.m in Sources */,
+				CEE3A14D140F557E00843FBA /* TexturedSquareAppDelegate.m in Sources */,
+				CEE3A15A140F557E00843FBA /* TexturedSquareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE3A145140F557D00843FBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE3A146140F557D00843FBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE3A14E140F557E00843FBA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE3A14F140F557E00843FBA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE3A151140F557E00843FBA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE3A152140F557E00843FBA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE3A15B140F557E00843FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE3A15C140F557E00843FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE3A15E140F557E00843FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Textured Square/Textured Square-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Textured Square/Textured Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE3A15F140F557E00843FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Textured Square/Textured Square-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Textured Square/Textured Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE3A130140F557D00843FBA /* Build configuration list for PBXProject "Textured Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE3A15B140F557E00843FBA /* Debug */,
+				CEE3A15C140F557E00843FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE3A15D140F557E00843FBA /* Build configuration list for PBXNativeTarget "Textured Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE3A15E140F557E00843FBA /* Debug */,
+				CEE3A15F140F557E00843FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE3A12D140F557D00843FBA /* Project object */;
+}

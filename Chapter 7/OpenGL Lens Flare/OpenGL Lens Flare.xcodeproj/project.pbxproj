@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1832441421C4A90067F631 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1832421421C4910067F631 /* GLKit.framework */; };
+		CE34F9E613DDE44300C810B6 /* OpenGLCreateTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE34F9E513DDE44300C810B6 /* OpenGLCreateTexture.mm */; };
+		CE34FA0513DE2A5700C810B6 /* Flare.m in Sources */ = {isa = PBXBuildFile; fileRef = CE34FA0413DE2A5700C810B6 /* Flare.m */; };
+		CE34FA1313DF3BF700C810B6 /* flare_fuzzy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA0E13DF3BF600C810B6 /* flare_fuzzy.png */; };
+		CE34FA1513DF3BF700C810B6 /* halo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA1013DF3BF700C810B6 /* halo.png */; };
+		CE34FA1613DF3BF700C810B6 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA1113DF3BF700C810B6 /* hexagon.png */; };
+		CE34FA1D13DF4FA000C810B6 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA1C13DF4F9F00C810B6 /* glow.png */; };
+		CE34FA2113DF58B700C810B6 /* hexagon_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA1E13DF58AD00C810B6 /* hexagon_blur.png */; };
+		CE34FA3213DFBAFF00C810B6 /* sunglow_hc.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA3113DFBAFB00C810B6 /* sunglow_hc.png */; };
+		CE34FA3413DFBBFC00C810B6 /* sunglow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA3313DFBBF700C810B6 /* sunglow.png */; };
+		CE34FA3613DFC1BA00C810B6 /* sunglow2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE34FA3513DFC1B800C810B6 /* sunglow2.png */; };
+		CEAC5EC013DFDCFB00372C66 /* lens_flare_masked.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAC5EBF13DFDCFA00372C66 /* lens_flare_masked.png */; };
+		CEAC5EC713DFEAEC00372C66 /* gimp_sun1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAC5EC413DFEAEB00372C66 /* gimp_sun1.png */; };
+		CEAC5EC813DFEAEC00372C66 /* gimp_sun2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAC5EC513DFEAEB00372C66 /* gimp_sun2.png */; };
+		CEAC5EC913DFEAEC00372C66 /* gimp_sun3.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAC5EC613DFEAEB00372C66 /* gimp_sun3.png */; };
+		CEC64A3413DDDA0B000F46DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC64A3313DDDA0B000F46DB /* UIKit.framework */; };
+		CEC64A3613DDDA0B000F46DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC64A3513DDDA0B000F46DB /* Foundation.framework */; };
+		CEC64A3813DDDA0B000F46DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC64A3713DDDA0B000F46DB /* CoreGraphics.framework */; };
+		CEC64A3A13DDDA0B000F46DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC64A3913DDDA0B000F46DB /* QuartzCore.framework */; };
+		CEC64A3C13DDDA0B000F46DB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC64A3B13DDDA0B000F46DB /* OpenGLES.framework */; };
+		CEC64A4213DDDA0B000F46DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC64A4013DDDA0B000F46DB /* InfoPlist.strings */; };
+		CEC64A4413DDDA0B000F46DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC64A4313DDDA0B000F46DB /* main.m */; };
+		CEC64A4813DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC64A4713DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.m */; };
+		CEC64A4B13DDDA0B000F46DB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC64A4913DDDA0B000F46DB /* MainStoryboard_iPhone.storyboard */; };
+		CEC64A4E13DDDA0B000F46DB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC64A4C13DDDA0B000F46DB /* MainStoryboard_iPad.storyboard */; };
+		CEC64A5013DDDA0B000F46DB /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CEC64A4F13DDDA0B000F46DB /* Shader.fsh */; };
+		CEC64A5213DDDA0B000F46DB /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CEC64A5113DDDA0B000F46DB /* Shader.vsh */; };
+		CEC64A5513DDDA0B000F46DB /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC64A5413DDDA0B000F46DB /* EAGLView.m */; };
+		CEC64A5813DDDA0B000F46DB /* OpenGLLensFlareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC64A5713DDDA0B000F46DB /* OpenGLLensFlareViewController.m */; };
+		CEC64A7913DDDAD9000F46DB /* LensFlare.mm in Sources */ = {isa = PBXBuildFile; fileRef = CEC64A7813DDDAD9000F46DB /* LensFlare.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1832421421C4910067F631 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE34F9E413DDE44300C810B6 /* OpenGLCreateTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLCreateTexture.h; sourceTree = "<group>"; };
+		CE34F9E513DDE44300C810B6 /* OpenGLCreateTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLCreateTexture.mm; sourceTree = "<group>"; };
+		CE34FA0313DE2A5700C810B6 /* Flare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flare.h; sourceTree = "<group>"; };
+		CE34FA0413DE2A5700C810B6 /* Flare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flare.m; sourceTree = "<group>"; };
+		CE34FA0E13DF3BF600C810B6 /* flare_fuzzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flare_fuzzy.png; path = images/flare_fuzzy.png; sourceTree = "<group>"; };
+		CE34FA1013DF3BF700C810B6 /* halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = halo.png; path = images/halo.png; sourceTree = "<group>"; };
+		CE34FA1113DF3BF700C810B6 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hexagon.png; path = images/hexagon.png; sourceTree = "<group>"; };
+		CE34FA1C13DF4F9F00C810B6 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glow.png; path = images/glow.png; sourceTree = "<group>"; };
+		CE34FA1E13DF58AD00C810B6 /* hexagon_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hexagon_blur.png; path = images/hexagon_blur.png; sourceTree = "<group>"; };
+		CE34FA2413DF591F00C810B6 /* flare_fuzzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flare_fuzzy.png; path = images/flare_fuzzy.png; sourceTree = "<group>"; };
+		CE34FA3113DFBAFB00C810B6 /* sunglow_hc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunglow_hc.png; path = images/sunglow_hc.png; sourceTree = "<group>"; };
+		CE34FA3313DFBBF700C810B6 /* sunglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunglow.png; path = images/sunglow.png; sourceTree = "<group>"; };
+		CE34FA3513DFC1B800C810B6 /* sunglow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunglow2.png; path = images/sunglow2.png; sourceTree = "<group>"; };
+		CEAC5EBF13DFDCFA00372C66 /* lens_flare_masked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lens_flare_masked.png; path = images/lens_flare_masked.png; sourceTree = "<group>"; };
+		CEAC5EC413DFEAEB00372C66 /* gimp_sun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gimp_sun1.png; path = images/gimp_sun1.png; sourceTree = "<group>"; };
+		CEAC5EC513DFEAEB00372C66 /* gimp_sun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gimp_sun2.png; path = images/gimp_sun2.png; sourceTree = "<group>"; };
+		CEAC5EC613DFEAEB00372C66 /* gimp_sun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gimp_sun3.png; path = images/gimp_sun3.png; sourceTree = "<group>"; };
+		CEC64A2F13DDDA0B000F46DB /* OpenGL Lens Flare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL Lens Flare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC64A3313DDDA0B000F46DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC64A3513DDDA0B000F46DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC64A3713DDDA0B000F46DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC64A3913DDDA0B000F46DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEC64A3B13DDDA0B000F46DB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEC64A3F13DDDA0B000F46DB /* OpenGL Lens Flare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGL Lens Flare-Info.plist"; sourceTree = "<group>"; };
+		CEC64A4113DDDA0B000F46DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC64A4313DDDA0B000F46DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC64A4613DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLLensFlareAppDelegate.h; sourceTree = "<group>"; };
+		CEC64A4713DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLLensFlareAppDelegate.m; sourceTree = "<group>"; };
+		CEC64A4A13DDDA0B000F46DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CEC64A4D13DDDA0B000F46DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CEC64A4F13DDDA0B000F46DB /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CEC64A5113DDDA0B000F46DB /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CEC64A5313DDDA0B000F46DB /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		CEC64A5413DDDA0B000F46DB /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		CEC64A5613DDDA0B000F46DB /* OpenGLLensFlareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLLensFlareViewController.h; sourceTree = "<group>"; };
+		CEC64A5713DDDA0B000F46DB /* OpenGLLensFlareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLLensFlareViewController.m; sourceTree = "<group>"; };
+		CEC64A5F13DDDA0C000F46DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC64A6813DDDA0C000F46DB /* OpenGL Lens FlareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGL Lens FlareTests-Info.plist"; sourceTree = "<group>"; };
+		CEC64A6A13DDDA0C000F46DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC64A6C13DDDA0C000F46DB /* OpenGL_Lens_FlareTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGL_Lens_FlareTests.h; sourceTree = "<group>"; };
+		CEC64A6D13DDDA0C000F46DB /* OpenGL_Lens_FlareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_Lens_FlareTests.m; sourceTree = "<group>"; };
+		CEC64A7713DDDAD9000F46DB /* LensFlare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensFlare.h; sourceTree = "<group>"; };
+		CEC64A7813DDDAD9000F46DB /* LensFlare.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LensFlare.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC64A2C13DDDA0A000F46DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1832441421C4A90067F631 /* GLKit.framework in Frameworks */,
+				CEC64A3413DDDA0B000F46DB /* UIKit.framework in Frameworks */,
+				CEC64A3613DDDA0B000F46DB /* Foundation.framework in Frameworks */,
+				CEC64A3813DDDA0B000F46DB /* CoreGraphics.framework in Frameworks */,
+				CEC64A3A13DDDA0B000F46DB /* QuartzCore.framework in Frameworks */,
+				CEC64A3C13DDDA0B000F46DB /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE34F9EA13DDF3DA00C810B6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE34FA0E13DF3BF600C810B6 /* flare_fuzzy.png */,
+				CEAC5EBF13DFDCFA00372C66 /* lens_flare_masked.png */,
+				CE34FA1013DF3BF700C810B6 /* halo.png */,
+				CE34FA1113DF3BF700C810B6 /* hexagon.png */,
+				CE34FA1E13DF58AD00C810B6 /* hexagon_blur.png */,
+				CE34FA2413DF591F00C810B6 /* flare_fuzzy.png */,
+				CE34FA1C13DF4F9F00C810B6 /* glow.png */,
+				CE34FA3113DFBAFB00C810B6 /* sunglow_hc.png */,
+				CE34FA3313DFBBF700C810B6 /* sunglow.png */,
+				CE34FA3513DFC1B800C810B6 /* sunglow2.png */,
+				CEAC5EC413DFEAEB00372C66 /* gimp_sun1.png */,
+				CEAC5EC513DFEAEB00372C66 /* gimp_sun2.png */,
+				CEAC5EC613DFEAEB00372C66 /* gimp_sun3.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CEC64A2413DDDA0A000F46DB = {
+			isa = PBXGroup;
+			children = (
+				CE1832421421C4910067F631 /* GLKit.framework */,
+				CEC64A3D13DDDA0B000F46DB /* OpenGL Lens Flare */,
+				CEC64A6613DDDA0C000F46DB /* OpenGL Lens FlareTests */,
+				CEC64A3213DDDA0B000F46DB /* Frameworks */,
+				CEC64A3013DDDA0B000F46DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC64A3013DDDA0B000F46DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC64A2F13DDDA0B000F46DB /* OpenGL Lens Flare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC64A3213DDDA0B000F46DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC64A3313DDDA0B000F46DB /* UIKit.framework */,
+				CEC64A3513DDDA0B000F46DB /* Foundation.framework */,
+				CEC64A3713DDDA0B000F46DB /* CoreGraphics.framework */,
+				CEC64A3913DDDA0B000F46DB /* QuartzCore.framework */,
+				CEC64A3B13DDDA0B000F46DB /* OpenGLES.framework */,
+				CEC64A5F13DDDA0C000F46DB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC64A3D13DDDA0B000F46DB /* OpenGL Lens Flare */ = {
+			isa = PBXGroup;
+			children = (
+				CEC64A4613DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.h */,
+				CEC64A4713DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.m */,
+				CEC64A4913DDDA0B000F46DB /* MainStoryboard_iPhone.storyboard */,
+				CEC64A4C13DDDA0B000F46DB /* MainStoryboard_iPad.storyboard */,
+				CEC64A4F13DDDA0B000F46DB /* Shader.fsh */,
+				CEC64A5113DDDA0B000F46DB /* Shader.vsh */,
+				CEC64A5313DDDA0B000F46DB /* EAGLView.h */,
+				CEC64A5413DDDA0B000F46DB /* EAGLView.m */,
+				CEC64A5613DDDA0B000F46DB /* OpenGLLensFlareViewController.h */,
+				CEC64A5713DDDA0B000F46DB /* OpenGLLensFlareViewController.m */,
+				CE34FA0313DE2A5700C810B6 /* Flare.h */,
+				CE34FA0413DE2A5700C810B6 /* Flare.m */,
+				CEC64A7713DDDAD9000F46DB /* LensFlare.h */,
+				CEC64A7813DDDAD9000F46DB /* LensFlare.mm */,
+				CE34F9E413DDE44300C810B6 /* OpenGLCreateTexture.h */,
+				CE34F9E513DDE44300C810B6 /* OpenGLCreateTexture.mm */,
+				CEC64A3E13DDDA0B000F46DB /* Supporting Files */,
+			);
+			path = "OpenGL Lens Flare";
+			sourceTree = "<group>";
+		};
+		CEC64A3E13DDDA0B000F46DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE34F9EA13DDF3DA00C810B6 /* images */,
+				CEC64A3F13DDDA0B000F46DB /* OpenGL Lens Flare-Info.plist */,
+				CEC64A4013DDDA0B000F46DB /* InfoPlist.strings */,
+				CEC64A4313DDDA0B000F46DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC64A6613DDDA0C000F46DB /* OpenGL Lens FlareTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC64A6C13DDDA0C000F46DB /* OpenGL_Lens_FlareTests.h */,
+				CEC64A6D13DDDA0C000F46DB /* OpenGL_Lens_FlareTests.m */,
+				CEC64A6713DDDA0C000F46DB /* Supporting Files */,
+			);
+			path = "OpenGL Lens FlareTests";
+			sourceTree = "<group>";
+		};
+		CEC64A6713DDDA0C000F46DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC64A6813DDDA0C000F46DB /* OpenGL Lens FlareTests-Info.plist */,
+				CEC64A6913DDDA0C000F46DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC64A2E13DDDA0A000F46DB /* OpenGL Lens Flare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC64A7113DDDA0C000F46DB /* Build configuration list for PBXNativeTarget "OpenGL Lens Flare" */;
+			buildPhases = (
+				CEC64A2B13DDDA0A000F46DB /* Sources */,
+				CEC64A2C13DDDA0A000F46DB /* Frameworks */,
+				CEC64A2D13DDDA0A000F46DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL Lens Flare";
+			productName = "OpenGL Lens Flare";
+			productReference = CEC64A2F13DDDA0B000F46DB /* OpenGL Lens Flare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC64A2613DDDA0A000F46DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEC64A2913DDDA0A000F46DB /* Build configuration list for PBXProject "OpenGL Lens Flare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC64A2413DDDA0A000F46DB;
+			productRefGroup = CEC64A3013DDDA0B000F46DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC64A2E13DDDA0A000F46DB /* OpenGL Lens Flare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC64A2D13DDDA0A000F46DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC64A4213DDDA0B000F46DB /* InfoPlist.strings in Resources */,
+				CEC64A4B13DDDA0B000F46DB /* MainStoryboard_iPhone.storyboard in Resources */,
+				CEC64A4E13DDDA0B000F46DB /* MainStoryboard_iPad.storyboard in Resources */,
+				CEC64A5013DDDA0B000F46DB /* Shader.fsh in Resources */,
+				CEC64A5213DDDA0B000F46DB /* Shader.vsh in Resources */,
+				CE34FA1313DF3BF700C810B6 /* flare_fuzzy.png in Resources */,
+				CE34FA1513DF3BF700C810B6 /* halo.png in Resources */,
+				CE34FA1613DF3BF700C810B6 /* hexagon.png in Resources */,
+				CE34FA1D13DF4FA000C810B6 /* glow.png in Resources */,
+				CE34FA2113DF58B700C810B6 /* hexagon_blur.png in Resources */,
+				CE34FA3213DFBAFF00C810B6 /* sunglow_hc.png in Resources */,
+				CE34FA3413DFBBFC00C810B6 /* sunglow.png in Resources */,
+				CE34FA3613DFC1BA00C810B6 /* sunglow2.png in Resources */,
+				CEAC5EC013DFDCFB00372C66 /* lens_flare_masked.png in Resources */,
+				CEAC5EC713DFEAEC00372C66 /* gimp_sun1.png in Resources */,
+				CEAC5EC813DFEAEC00372C66 /* gimp_sun2.png in Resources */,
+				CEAC5EC913DFEAEC00372C66 /* gimp_sun3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC64A2B13DDDA0A000F46DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC64A4413DDDA0B000F46DB /* main.m in Sources */,
+				CEC64A4813DDDA0B000F46DB /* OpenGLLensFlareAppDelegate.m in Sources */,
+				CEC64A5513DDDA0B000F46DB /* EAGLView.m in Sources */,
+				CEC64A5813DDDA0B000F46DB /* OpenGLLensFlareViewController.m in Sources */,
+				CEC64A7913DDDAD9000F46DB /* LensFlare.mm in Sources */,
+				CE34F9E613DDE44300C810B6 /* OpenGLCreateTexture.mm in Sources */,
+				CE34FA0513DE2A5700C810B6 /* Flare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC64A4013DDDA0B000F46DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC64A4113DDDA0B000F46DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC64A4913DDDA0B000F46DB /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC64A4A13DDDA0B000F46DB /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC64A4C13DDDA0B000F46DB /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC64A4D13DDDA0B000F46DB /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC64A6913DDDA0C000F46DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC64A6A13DDDA0C000F46DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC64A6F13DDDA0C000F46DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC64A7013DDDA0C000F46DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC64A7213DDDA0C000F46DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL Lens Flare/OpenGL Lens Flare-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGL Lens Flare/OpenGL Lens Flare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC64A7313DDDA0C000F46DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL Lens Flare/OpenGL Lens Flare-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGL Lens Flare/OpenGL Lens Flare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC64A2913DDDA0A000F46DB /* Build configuration list for PBXProject "OpenGL Lens Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC64A6F13DDDA0C000F46DB /* Debug */,
+				CEC64A7013DDDA0C000F46DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC64A7113DDDA0C000F46DB /* Build configuration list for PBXNativeTarget "OpenGL Lens Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC64A7213DDDA0C000F46DB /* Debug */,
+				CEC64A7313DDDA0C000F46DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC64A2613DDDA0A000F46DB /* Project object */;
+}

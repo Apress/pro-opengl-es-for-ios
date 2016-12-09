@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE121BF31423045F003B5065 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE121BF21423045F003B5065 /* GLKit.framework */; };
+		CE121C1214231170003B5065 /* ShadowCastingAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE121C1114231170003B5065 /* ShadowCastingAppDelegate.mm */; };
+		CE121C21142311E6003B5065 /* ShadowCastingViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE121C20142311E6003B5065 /* ShadowCastingViewController.mm */; };
+		CEDAD92813EDE421004860BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAD92713EDE421004860BB /* UIKit.framework */; };
+		CEDAD92A13EDE421004860BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAD92913EDE421004860BB /* Foundation.framework */; };
+		CEDAD92C13EDE421004860BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAD92B13EDE421004860BB /* CoreGraphics.framework */; };
+		CEDAD92E13EDE421004860BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAD92D13EDE421004860BB /* QuartzCore.framework */; };
+		CEDAD93013EDE421004860BB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAD92F13EDE421004860BB /* OpenGLES.framework */; };
+		CEDAD93613EDE421004860BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAD93413EDE421004860BB /* InfoPlist.strings */; };
+		CEDAD93813EDE421004860BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAD93713EDE421004860BB /* main.m */; };
+		CEE8320F14231234006DB6B4 /* ShadowCastingViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8320B14231234006DB6B4 /* ShadowCastingViewController_iPad.xib */; };
+		CEE8321014231234006DB6B4 /* ShadowCastingViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8320D14231234006DB6B4 /* ShadowCastingViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE121BF21423045F003B5065 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE121C1114231170003B5065 /* ShadowCastingAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShadowCastingAppDelegate.mm; sourceTree = "<group>"; };
+		CE121C1314231179003B5065 /* ShadowCastingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowCastingAppDelegate.h; sourceTree = "<group>"; };
+		CE121C1A142311B2003B5065 /* ShadowCastingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowCastingViewController.h; sourceTree = "<group>"; };
+		CE121C20142311E6003B5065 /* ShadowCastingViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShadowCastingViewController.mm; sourceTree = "<group>"; };
+		CEDAD92313EDE421004860BB /* ShadowCasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowCasting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDAD92713EDE421004860BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEDAD92913EDE421004860BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDAD92B13EDE421004860BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEDAD92D13EDE421004860BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEDAD92F13EDE421004860BB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEDAD93313EDE421004860BB /* ShadowCasting-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ShadowCasting-Info.plist"; sourceTree = "<group>"; };
+		CEDAD93513EDE421004860BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDAD93713EDE421004860BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDAD93913EDE421004860BB /* ShadowCasting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowCasting-Prefix.pch"; sourceTree = "<group>"; };
+		CEE8320C14231234006DB6B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShadowCastingViewController_iPad.xib; sourceTree = "<group>"; };
+		CEE8320E14231234006DB6B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShadowCastingViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDAD92013EDE421004860BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE121BF31423045F003B5065 /* GLKit.framework in Frameworks */,
+				CEDAD92813EDE421004860BB /* UIKit.framework in Frameworks */,
+				CEDAD92A13EDE421004860BB /* Foundation.framework in Frameworks */,
+				CEDAD92C13EDE421004860BB /* CoreGraphics.framework in Frameworks */,
+				CEDAD92E13EDE421004860BB /* QuartzCore.framework in Frameworks */,
+				CEDAD93013EDE421004860BB /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDAD91813EDE421004860BB = {
+			isa = PBXGroup;
+			children = (
+				CEDAD93113EDE421004860BB /* ShadowCasting */,
+				CEDAD92613EDE421004860BB /* Frameworks */,
+				CEDAD92413EDE421004860BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDAD92413EDE421004860BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAD92313EDE421004860BB /* ShadowCasting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDAD92613EDE421004860BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE121BF21423045F003B5065 /* GLKit.framework */,
+				CEDAD92713EDE421004860BB /* UIKit.framework */,
+				CEDAD92913EDE421004860BB /* Foundation.framework */,
+				CEDAD92B13EDE421004860BB /* CoreGraphics.framework */,
+				CEDAD92D13EDE421004860BB /* QuartzCore.framework */,
+				CEDAD92F13EDE421004860BB /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDAD93113EDE421004860BB /* ShadowCasting */ = {
+			isa = PBXGroup;
+			children = (
+				CE121C1114231170003B5065 /* ShadowCastingAppDelegate.mm */,
+				CE121C1314231179003B5065 /* ShadowCastingAppDelegate.h */,
+				CE121C20142311E6003B5065 /* ShadowCastingViewController.mm */,
+				CE121C1A142311B2003B5065 /* ShadowCastingViewController.h */,
+				CEE8320B14231234006DB6B4 /* ShadowCastingViewController_iPad.xib */,
+				CEE8320D14231234006DB6B4 /* ShadowCastingViewController_iPhone.xib */,
+				CEDAD93213EDE421004860BB /* Supporting Files */,
+			);
+			path = ShadowCasting;
+			sourceTree = "<group>";
+		};
+		CEDAD93213EDE421004860BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAD93313EDE421004860BB /* ShadowCasting-Info.plist */,
+				CEDAD93413EDE421004860BB /* InfoPlist.strings */,
+				CEDAD93713EDE421004860BB /* main.m */,
+				CEDAD93913EDE421004860BB /* ShadowCasting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDAD92213EDE421004860BB /* ShadowCasting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDAD94F13EDE421004860BB /* Build configuration list for PBXNativeTarget "ShadowCasting" */;
+			buildPhases = (
+				CEDAD91F13EDE421004860BB /* Sources */,
+				CEDAD92013EDE421004860BB /* Frameworks */,
+				CEDAD92113EDE421004860BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowCasting;
+			productName = ShadowCasting;
+			productReference = CEDAD92313EDE421004860BB /* ShadowCasting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDAD91A13EDE421004860BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEDAD91D13EDE421004860BB /* Build configuration list for PBXProject "ShadowCasting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDAD91813EDE421004860BB;
+			productRefGroup = CEDAD92413EDE421004860BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDAD92213EDE421004860BB /* ShadowCasting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDAD92113EDE421004860BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAD93613EDE421004860BB /* InfoPlist.strings in Resources */,
+				CEE8320F14231234006DB6B4 /* ShadowCastingViewController_iPad.xib in Resources */,
+				CEE8321014231234006DB6B4 /* ShadowCastingViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDAD91F13EDE421004860BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDAD93813EDE421004860BB /* main.m in Sources */,
+				CE121C1214231170003B5065 /* ShadowCastingAppDelegate.mm in Sources */,
+				CE121C21142311E6003B5065 /* ShadowCastingViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDAD93413EDE421004860BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDAD93513EDE421004860BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE8320B14231234006DB6B4 /* ShadowCastingViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8320C14231234006DB6B4 /* en */,
+			);
+			name = ShadowCastingViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		CEE8320D14231234006DB6B4 /* ShadowCastingViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8320E14231234006DB6B4 /* en */,
+			);
+			name = ShadowCastingViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDAD94D13EDE421004860BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDAD94E13EDE421004860BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDAD95013EDE421004860BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowCasting/ShadowCasting-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "ShadowCasting/ShadowCasting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEDAD95113EDE421004860BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowCasting/ShadowCasting-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "ShadowCasting/ShadowCasting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDAD91D13EDE421004860BB /* Build configuration list for PBXProject "ShadowCasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDAD94D13EDE421004860BB /* Debug */,
+				CEDAD94E13EDE421004860BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDAD94F13EDE421004860BB /* Build configuration list for PBXNativeTarget "ShadowCasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDAD95013EDE421004860BB /* Debug */,
+				CEDAD95113EDE421004860BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDAD91A13EDE421004860BB /* Project object */;
+}

@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE18324C14225F530067F631 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18324B14225F530067F631 /* GLKit.framework */; };
+		CE22E86113E484C90015D285 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22E86013E484C90015D285 /* UIKit.framework */; };
+		CE22E86313E484C90015D285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22E86213E484C90015D285 /* Foundation.framework */; };
+		CE22E86513E484C90015D285 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22E86413E484C90015D285 /* CoreGraphics.framework */; };
+		CE22E86713E484C90015D285 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22E86613E484C90015D285 /* QuartzCore.framework */; };
+		CE22E86913E484C90015D285 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE22E86813E484C90015D285 /* OpenGLES.framework */; };
+		CE22E86F13E484CA0015D285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE22E86D13E484CA0015D285 /* InfoPlist.strings */; };
+		CE22E87113E484CA0015D285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87013E484CA0015D285 /* main.m */; };
+		CE22E87513E484CA0015D285 /* OpenGL_ReflectionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87413E484CA0015D285 /* OpenGL_ReflectionAppDelegate.m */; };
+		CE22E87713E484CA0015D285 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CE22E87613E484CA0015D285 /* Shader.fsh */; };
+		CE22E87913E484CA0015D285 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE22E87813E484CA0015D285 /* Shader.vsh */; };
+		CE22E87C13E484CA0015D285 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87B13E484CA0015D285 /* EAGLView.m */; };
+		CE22E87F13E484CA0015D285 /* OpenGL_ReflectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE22E87E13E484CA0015D285 /* OpenGL_ReflectionViewController.m */; };
+		CE22E88213E484CA0015D285 /* OpenGL_ReflectionViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE22E88013E484CA0015D285 /* OpenGL_ReflectionViewController_iPhone.xib */; };
+		CE22E88513E484CA0015D285 /* OpenGL_ReflectionViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE22E88313E484CA0015D285 /* OpenGL_ReflectionViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE18324B14225F530067F631 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE22E85C13E484C90015D285 /* OpenGL_Reflection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL_Reflection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE22E86013E484C90015D285 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE22E86213E484C90015D285 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE22E86413E484C90015D285 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE22E86613E484C90015D285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE22E86813E484C90015D285 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE22E86C13E484CA0015D285 /* OpenGL_Reflection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGL_Reflection-Info.plist"; sourceTree = "<group>"; };
+		CE22E86E13E484CA0015D285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE22E87013E484CA0015D285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE22E87213E484CA0015D285 /* OpenGL_Reflection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGL_Reflection-Prefix.pch"; sourceTree = "<group>"; };
+		CE22E87313E484CA0015D285 /* OpenGL_ReflectionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGL_ReflectionAppDelegate.h; sourceTree = "<group>"; };
+		CE22E87413E484CA0015D285 /* OpenGL_ReflectionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_ReflectionAppDelegate.m; sourceTree = "<group>"; };
+		CE22E87613E484CA0015D285 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CE22E87813E484CA0015D285 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CE22E87A13E484CA0015D285 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		CE22E87B13E484CA0015D285 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		CE22E87D13E484CA0015D285 /* OpenGL_ReflectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGL_ReflectionViewController.h; sourceTree = "<group>"; };
+		CE22E87E13E484CA0015D285 /* OpenGL_ReflectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_ReflectionViewController.m; sourceTree = "<group>"; };
+		CE22E88113E484CA0015D285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenGL_ReflectionViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE22E88413E484CA0015D285 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenGL_ReflectionViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE22E85913E484C90015D285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18324C14225F530067F631 /* GLKit.framework in Frameworks */,
+				CE22E86113E484C90015D285 /* UIKit.framework in Frameworks */,
+				CE22E86313E484C90015D285 /* Foundation.framework in Frameworks */,
+				CE22E86513E484C90015D285 /* CoreGraphics.framework in Frameworks */,
+				CE22E86713E484C90015D285 /* QuartzCore.framework in Frameworks */,
+				CE22E86913E484C90015D285 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE22E85113E484C90015D285 = {
+			isa = PBXGroup;
+			children = (
+				CE22E86A13E484CA0015D285 /* OpenGL_Reflection */,
+				CE22E85F13E484C90015D285 /* Frameworks */,
+				CE22E85D13E484C90015D285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE22E85D13E484C90015D285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E85C13E484C90015D285 /* OpenGL_Reflection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE22E85F13E484C90015D285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE18324B14225F530067F631 /* GLKit.framework */,
+				CE22E86013E484C90015D285 /* UIKit.framework */,
+				CE22E86213E484C90015D285 /* Foundation.framework */,
+				CE22E86413E484C90015D285 /* CoreGraphics.framework */,
+				CE22E86613E484C90015D285 /* QuartzCore.framework */,
+				CE22E86813E484C90015D285 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE22E86A13E484CA0015D285 /* OpenGL_Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E87313E484CA0015D285 /* OpenGL_ReflectionAppDelegate.h */,
+				CE22E87413E484CA0015D285 /* OpenGL_ReflectionAppDelegate.m */,
+				CE22E87613E484CA0015D285 /* Shader.fsh */,
+				CE22E87813E484CA0015D285 /* Shader.vsh */,
+				CE22E87A13E484CA0015D285 /* EAGLView.h */,
+				CE22E87B13E484CA0015D285 /* EAGLView.m */,
+				CE22E87D13E484CA0015D285 /* OpenGL_ReflectionViewController.h */,
+				CE22E87E13E484CA0015D285 /* OpenGL_ReflectionViewController.m */,
+				CE22E88013E484CA0015D285 /* OpenGL_ReflectionViewController_iPhone.xib */,
+				CE22E88313E484CA0015D285 /* OpenGL_ReflectionViewController_iPad.xib */,
+				CE22E86B13E484CA0015D285 /* Supporting Files */,
+			);
+			path = OpenGL_Reflection;
+			sourceTree = "<group>";
+		};
+		CE22E86B13E484CA0015D285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE22E86C13E484CA0015D285 /* OpenGL_Reflection-Info.plist */,
+				CE22E86D13E484CA0015D285 /* InfoPlist.strings */,
+				CE22E87013E484CA0015D285 /* main.m */,
+				CE22E87213E484CA0015D285 /* OpenGL_Reflection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE22E85B13E484C90015D285 /* OpenGL_Reflection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22E88813E484CA0015D285 /* Build configuration list for PBXNativeTarget "OpenGL_Reflection" */;
+			buildPhases = (
+				CE22E85813E484C90015D285 /* Sources */,
+				CE22E85913E484C90015D285 /* Frameworks */,
+				CE22E85A13E484C90015D285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGL_Reflection;
+			productName = OpenGL_Reflection;
+			productReference = CE22E85C13E484C90015D285 /* OpenGL_Reflection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE22E85313E484C90015D285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE22E85613E484C90015D285 /* Build configuration list for PBXProject "OpenGL_Reflection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE22E85113E484C90015D285;
+			productRefGroup = CE22E85D13E484C90015D285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE22E85B13E484C90015D285 /* OpenGL_Reflection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE22E85A13E484C90015D285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E86F13E484CA0015D285 /* InfoPlist.strings in Resources */,
+				CE22E87713E484CA0015D285 /* Shader.fsh in Resources */,
+				CE22E87913E484CA0015D285 /* Shader.vsh in Resources */,
+				CE22E88213E484CA0015D285 /* OpenGL_ReflectionViewController_iPhone.xib in Resources */,
+				CE22E88513E484CA0015D285 /* OpenGL_ReflectionViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE22E85813E484C90015D285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE22E87113E484CA0015D285 /* main.m in Sources */,
+				CE22E87513E484CA0015D285 /* OpenGL_ReflectionAppDelegate.m in Sources */,
+				CE22E87C13E484CA0015D285 /* EAGLView.m in Sources */,
+				CE22E87F13E484CA0015D285 /* OpenGL_ReflectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE22E86D13E484CA0015D285 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22E86E13E484CA0015D285 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE22E88013E484CA0015D285 /* OpenGL_ReflectionViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22E88113E484CA0015D285 /* en */,
+			);
+			name = OpenGL_ReflectionViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE22E88313E484CA0015D285 /* OpenGL_ReflectionViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE22E88413E484CA0015D285 /* en */,
+			);
+			name = OpenGL_ReflectionViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE22E88613E484CA0015D285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE22E88713E484CA0015D285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE22E88913E484CA0015D285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL_Reflection/OpenGL_Reflection-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGL_Reflection/OpenGL_Reflection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE22E88A13E484CA0015D285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGL_Reflection/OpenGL_Reflection-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "OpenGL_Reflection/OpenGL_Reflection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE22E85613E484C90015D285 /* Build configuration list for PBXProject "OpenGL_Reflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E88613E484CA0015D285 /* Debug */,
+				CE22E88713E484CA0015D285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22E88813E484CA0015D285 /* Build configuration list for PBXNativeTarget "OpenGL_Reflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE22E88913E484CA0015D285 /* Debug */,
+				CE22E88A13E484CA0015D285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE22E85313E484C90015D285 /* Project object */;
+}
